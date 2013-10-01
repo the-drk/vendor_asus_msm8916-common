@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<apns version="7">
+<apns version="8">
+
+  <apn carrier="Vf MMS"
+      mcc="202"
+      mnc="05"
+      apn="mms.vodafone.net"
+      user="user"
+      password="pass"
+      mmsc="http://mms.vodafone.gr"
+      mmsproxy="213.249.19.49"
+      mmsport="5080"
+      type="mms"
+  />
 
   <apn carrier="Vf Mobile Broadband"
       mcc="202"
@@ -21,7 +33,10 @@
       apn="office.vodafone.nl"
       user="vodafone"
       password="vodafone"
-      type="default,supl"
+      mmsc="http://mmsc.mms.vodafone.nl"
+      mmsproxy="192.168.251.150"
+      mmsport="8799"
+      type="default,supl,mms"
   />
 
   <apn carrier="Ben internet"
@@ -179,11 +194,14 @@
       type="default,supl"
   />
 
-  <apn carrier="SFR Data"
+  <apn carrier="MMS"
       mcc="208"
       mnc="10"
-      apn="websfr"
-      type=""
+      apn="mmssfr"
+      mmsc="http://mms1"
+      mmsproxy="10.151.0.1"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="SFR mobile"
@@ -191,6 +209,13 @@
       mnc="10"
       apn="wapsfr"
       type="default,supl"
+  />
+
+  <apn carrier="SFR Option Modem"
+      mcc="208"
+      mnc="10"
+      apn="websfr"
+      type="dun"
   />
 
   <apn carrier="Free Mobile"
@@ -214,13 +239,25 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone ES"
+  <apn carrier="Internet móvil"
       mcc="214"
       mnc="01"
-      apn="aritelwap.es"
+      apn="airtelwap.es"
       user="wap@wap"
       password="wap125"
-      type="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS VODAFONE"
+      mcc="214"
+      mnc="01"
+      apn="mms.vodafone.net"
+      user="wap@wap"
+      password="wap125"
+      mmsc="http://mmsc.vodafone.es/servlets/mms"
+      mmsproxy="212.73.32.10"
+      mmsport="80"
+      type="mms"
   />
 
   <apn carrier="INTERNET"
@@ -232,24 +269,6 @@
       type="dun"
   />
 
-  <apn carrier="Internet móvil"
-      mcc="214"
-      mnc="01"
-      apn="airtelwap.es"
-      user="wap@wap"
-      password="wap125"
-      type="default,supl"
-  />
-
-  <apn carrier="Orange Internet Móvil"
-      mcc="214"
-      mnc="03"
-      apn="orangeworld"
-      user="orange"
-      password="orange"
-      type="default"
-  />
-
   <apn carrier="Orange Internet"
       mcc="214"
       mnc="03"
@@ -257,17 +276,6 @@
       user="orange"
       password="orange"
       type="default"
-  />
-
-  <apn carrier="Orange HTTP"
-      mcc="214"
-      mnc="03"
-      apn="orangeworld"
-      user="orange"
-      password="orange"
-      proxy="10.132.61.10"
-      port="8080"
-      type="default,supl"
   />
 
   <apn carrier="Yoigo Internet"
@@ -407,22 +415,27 @@
       type="default,supl"
   />
 
-  <apn carrier="Vipnet"
+  <apn carrier="Broadband"
       mcc="219"
       mnc="10"
       apn="data.vip.hr"
       user="38591"
       password="38591"
+      proxy="212.91.99.91"
+      port="8080"
       type="default,supl"
   />
 
-  <apn carrier="Internet"
+  <apn carrier="VIP.mms"
       mcc="219"
       mnc="10"
-      apn="web.htgprs"
-      proxy="10.12.0.4"
-      port="8080"
-      type="default,supl"
+      apn="mms.vip.hr"
+      user="38591"
+      password="38591"
+      mmsc="http://mms.vipnet.hr/servlets/mms"
+      mmsproxy="212.91.99.91"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Telenor gprs"
@@ -473,8 +486,18 @@
   <apn carrier="TIM Web"
       mcc="222"
       mnc="01"
-     apn="ibox.tim.it"
-     type="default,supl,dun"
+      apn="ibox.tim.it"
+      type="default,supl,dun"
+  />
+
+  <apn carrier="MMS Vodafone"
+      mcc="222"
+      mnc="10"
+      apn="mms.vodafone.it"
+      mmsc="http://mms.vodafone.it/servlets/mms"
+      mmsproxy="10.128.224.10"
+      mmsport="80"
+      type="mms"
   />
 
   <apn carrier="Acc. Internet da cell"
@@ -543,6 +566,30 @@
       type="default,supl"
   />
 
+  <apn carrier="Vodafone MMS PRE"
+      mcc="226"
+      mnc="01"
+      apn="mms.pre.vodafone.ro"
+      user="mms"
+      password="vodafone"
+      mmsc="http://multimedia/servlets/mms"
+      mmsproxy="193.230.161.231"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Vodafone MMS"
+      mcc="226"
+      mnc="01"
+      apn="mms.vodafone.ro"
+      user="mms"
+      password="vodafone"
+      mmsc="http://multimedia/servlets/mms"
+      mmsproxy="193.230.161.231"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Cosmote Internet prepaid"
       mcc="226"
       mnc="03"
@@ -594,11 +641,23 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone CZ"
+  <apn carrier="Internet"
       mcc="230"
       mnc="03"
       apn="internet"
       type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="230"
+      mnc="03"
+      apn="mms"
+      user="mms"
+      password="mms"
+      mmsc="http://mms"
+      mmsproxy="10.11.10.111"
+      mmsport="80"
+      type="mms"
   />
 
   <apn carrier="Orange SK"
@@ -633,12 +692,21 @@
       mcc="232"
       mnc="01"
       apn="a1.net"
-      user="ppp@A1plus.at"
-      password="PPP"
-      mmsc="http://mmsc.A1.net"
+      user="ppp@a1plus.at"
+      password="ppp"
+      type="default,supl"
+  />
+
+  <apn carrier="A1 MMS"
+      mcc="232"
+      mnc="01"
+      apn="free.a1.net"
+      user="ppp@a1plus.at"
+      password="ppp"
+      mmsc="http://mmsc.a1.net"
       mmsproxy="194.48.124.71"
       mmsport="8001"
-      type="default,supl"
+      type="mms"
   />
 
   <apn carrier="T-Mobile AT Internet"
@@ -658,6 +726,17 @@
       mmsproxy="010.012.000.020"
       mmsport="80"
       type="mms"
+  />
+
+  <apn carrier="tele.ring web"
+      mcc="232"
+      mnc="07"
+      apn="web"
+      user="web@telering.at"
+      password="web"
+      protocol="IP"
+      type="default"
+      authtype="1"
   />
 
   <apn carrier="UBIQUISYS"
@@ -703,32 +782,31 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone UK Prepay"
-      mcc="234"
-      mnc="15"
-      apn="pp.vodafone.co.uk"
-      user="wap"
-      password="wap"
-      type="default,supl"
-  />
-
   <apn carrier="Vodafone UK"
       mcc="234"
       mnc="15"
       apn="wap.vodafone.co.uk"
       user="wap"
       password="wap"
+      mmsc="http://mms.vodafone.co.uk/servlets/mms"
+      mmsproxy="212.183.137.12"
+      mmsport="8799"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="Vodafone UK Prepay"
+      mcc="234"
+      mnc="15"
+      apn="pp.vodafone.co.uk"
+      user="wap"
+      password="wap"
+      mmsc="http://mms.vodafone.co.uk/servlets/mms"
+      mmsproxy="212.183.137.12"
+      mmsport="8799"
       type="default,supl"
   />
 
   <apn carrier="3"
-      mcc="234"
-      mnc="20"
-      apn="3internet"
-      type="default,supl"
-  />
-
-  <apn carrier="3 Internet"
       mcc="234"
       mnc="20"
       apn="three.co.uk"
@@ -802,7 +880,7 @@
   <apn carrier="3 Danmark"
       mcc="238"
       mnc="06"
-      apn="bredbank.tre.dk"
+      apn="bredband.tre.dk"
       type="default"
   />
 
@@ -1031,6 +1109,18 @@
       type="default,supl"
   />
 
+  <apn carrier="Bite MMS"
+      mcc="246"
+      mnc="02"
+      apn="mms"
+      user="mms@mms"
+      password="mms"
+      mmsc="http://mmsc/servelts/mms"
+      mmsproxy="192.168.150.2"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Tele 2 HTTP"
       mcc="246"
       mnc="03"
@@ -1075,6 +1165,18 @@
       mnc="05"
       apn="internet"
       type="default,supl"
+  />
+
+  <apn carrier="Bite MMS"
+      mcc="247"
+      mnc="05"
+      apn="mms"
+      user="mms@mms"
+      password="mms"
+      mmsc="http://mmsc/servelts/mms"
+      mmsproxy="192.168.150.2"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="EMT Internet"
@@ -1203,6 +1305,16 @@
       mmsproxy="172.028.023.131"
       mmsport="8008"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Vodafone DE-MMS"
+      mcc="262"
+      mnc="02"
+      apn="event.vodafone.de"
+      mmsc="http://139.7.24.1/servlets/mms"
+      mmsproxy="139.7.29.17"
+      mmsport="80"
+      type="mms"
   />
 
   <apn carrier="Vodafone DE"
@@ -1389,13 +1501,16 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Vodafone PT Internet"
+  <apn carrier="Vodafone Net2"
       mcc="268"
       mnc="01"
       apn="net2.vodafone.pt"
       user="vodafone"
       password="vodafone"
-      type="default,supl"
+      mmsc="http://mms.vodafone.pt/servlets/mms"
+      mmsproxy="iproxy.vodafone.pt"
+      mmsport="80"
+      type="default,supl,mms"
   />
 
   <apn carrier="Optimus"
@@ -1469,6 +1584,16 @@
       type="default,supl"
   />
 
+  <apn carrier="Vodafone MMS"
+      mcc="272"
+      mnc="01"
+      apn="mms.vodafone.net"
+      mmsc="http://www.vodafone.ie/mms"
+      mmsproxy="10.24.59.200"
+      mmsport="80"
+      type="mms"
+  />
+
   <apn carrier="3"
       mcc="272"
       mnc="05"
@@ -1476,11 +1601,31 @@
       type="default,supl"
   />
 
+  <apn carrier="Vodafone MMS"
+      mcc="274"
+      mnc="02"
+      apn="mms.gprs.is"
+      mmsc="http://mmsc.vodafone.is"
+      mmsproxy="10.22.0.10"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Vodafone 3G Net"
       mcc="274"
       mnc="02"
       apn="vmc.gprs.is"
       type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="278"
+      mnc="01"
+      apn="mms.vodafone.com.mt"
+      mmsc="http://mms.vodafone.com.mt/servlets/mms"
+      mmsproxy="10.12.0.3"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Internet"
@@ -1505,6 +1650,16 @@
       mnc="01"
       apn="inet-gprs.mtel.bg"
       type="default,supl"
+  />
+
+  <apn carrier="M-Tel MMS"
+      mcc="284"
+      mnc="01"
+      apn="mms-gprs.mtel.bg"
+      mmsc="http://mmsc"
+      mmsproxy="10.150.0.33"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Vivacom"
@@ -1555,6 +1710,16 @@
       type="default,supl"
   />
 
+  <apn carrier="Vodafone MMS"
+      mcc="286"
+      mnc="02"
+      apn="mms"
+      mmsc="http://217.31.233.18:6001/MM1Servlet"
+      mmsproxy="217.31.233.18"
+      mmsport="9401"
+      type="mms"
+  />
+
   <apn carrier="AVEA Internet"
       mcc="286"
       mnc="03"
@@ -1586,17 +1751,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Si.mobil"
-      mcc="293"
-      mnc="40"
-      apn="internet.simobil.si"
-      user="simobil"
-      password="internet"
-      proxy="80.95.224.46"
-      port="9201"
-      type="default,supl"
-  />
-
   <apn carrier="Vodafone live!"
       mcc="293"
       mnc="40"
@@ -1606,6 +1760,18 @@
       proxy="80.95.224.17"
       port="9201"
       type="default,supl"
+  />
+
+  <apn carrier="Si.mobil MMS"
+      mcc="293"
+      mnc="40"
+      apn="mms.simobil.si"
+      user="simobil"
+      password="internet"
+      mmsc="http://mmsc"
+      mmsproxy="80.95.224.46"
+      mmsport="9201"
+      type="mms"
   />
 
   <apn carrier="Mobitel GPRS"
@@ -1637,6 +1803,18 @@
       proxy="78.40.0.1"
       port="8080"
       type="default"
+  />
+
+  <apn carrier="MMS"
+      mcc="294"
+      mnc="03"
+      apn="vipoperator.mms"
+      user="VIPOPERATOR"
+      password="VIPOPERATOR"
+      mmsc="http://mmsc.vipoperator.com.mk"
+      mmsproxy="78.40.0.1"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Videotron"
@@ -2971,13 +3149,6 @@
       type="default"
   />
 
-  <apn carrier="IL Cellcom"
-      mcc="425"
-      mnc="02"
-      apn="internetg"
-      type="default,supl,mms"
-  />
-
   <apn carrier="Sphone Pelephone"
       mcc="425"
       mnc="03"
@@ -2985,13 +3156,6 @@
       user="pcl@3g"
       password="pcl"
       type="default"
-  />
-
-  <apn carrier="IL Pelephone"
-      mcc="425"
-      mnc="03"
-      apn="internet"
-      type="default,supl,mms"
   />
 
   <apn carrier="Jawwal Palestine"
@@ -3083,18 +3247,109 @@
       type="default,supl"
   />
 
-  <apn carrier="mopera U設定"
-      mcc="440"
-      mnc="10"
-      apn="0120.mopera.net"
-      type="default,supl,mms"
+  <apn carrier="VFQ MMS"
+      mcc="427"
+      mnc="02"
+      apn="vodafone.com.qa"
+      mmsc="http://mms.vodafone.com.qa/mmsc"
+      mmsproxy="10.101.97.102"
+      mmsport="80"
+      type="mms"
   />
 
-  <apn carrier="mopera U（スマートフォン定額）"
+  <apn carrier="mopera U"
       mcc="440"
       mnc="10"
       apn="mopera.net"
       type="default"
+  />
+
+  <apn carrier="b-mobile（1GB/Fair）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@fr"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（U300）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@U300"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（スマホ電話）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@spd"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（カメレオン SIM）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@cm"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（アマゾン）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@am"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（ヨドバシ）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@zsim"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile（イオン）"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@aeon"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="IIJmio"
+      mcc="440"
+      mnc="10"
+      apn="iijmio.jp"
+      user="mio@iij"
+      server=""
+      password="iij"
+      authtype="3"
+      mmsc=""
   />
 
   <apn carrier="SKT3G"
@@ -3825,6 +4080,16 @@
       type="default,supl"
   />
 
+  <apn carrier="Vodafone AU-MMS"
+      mcc="505"
+      mnc="03"
+      apn="live.vodafone.com"
+      mmsc="http://pxt.vodafone.net.au/pxtsend"
+      mmsproxy="10.202.2.60"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Vodafone AU"
       mcc="505"
       mnc="03"
@@ -4158,19 +4423,23 @@
       type="default"
   />
 
+  <apn carrier="Gee! 3G/GPRS"
+      mcc="525"
+      mnc="05"
+      apn="shwap"
+      user="star"
+      password="hub"
+      proxy="10.12.1.2"
+      port="80"
+      type="default,supl"
+  />
+
   <apn carrier="Gee! 3G/GPRS prepaid"
       mcc="525"
       mnc="05"
       apn="shppd"
       proxy="10.12.1.2"
       port="80"
-      type="default,supl"
-  />
-
-  <apn carrier="Gee! 3G/GPRS"
-      mcc="525"
-      mnc="05"
-      apn="shwap"
       type="default,supl"
   />
 
@@ -4211,6 +4480,23 @@
       proxy="210.55.11.73"
       port="8080"
       type="default,supl"
+  />
+
+  <apn carrier="2degrees Internet"
+      mcc="530"
+      mnc="24"
+      apn="internet"
+      type="default"
+  />
+
+  <apn carrier="2degrees MMS"
+      mcc="530"
+      mnc="24"
+      apn="mms"
+      mmsc="http://mms.2degreesmobile.net.nz:48090"
+      mmsproxy="118.148.1.118"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Mobinil Web"
@@ -4268,6 +4554,50 @@
       type="mms"
   />
 
+  <apn carrier="Safaricom"
+      mcc="639"
+      mnc="02"
+      apn="safaricom"
+      user="saf"
+      password="data"
+      proxy="172.022.002.038"
+      port="9201"
+  />
+
+  <apn carrier="Airtel"
+      mcc="639"
+      mnc="03"
+      apn="internet"
+      proxy="172.030.008.050"
+      port="8080"
+  />
+
+  <apn carrier="Yu"
+      mcc="639"
+      mnc="05"
+      apn="internet"
+  />
+
+  <apn carrier="Orange"
+      mcc="639"
+      mnc="07"
+      apn="bew.orange.co.ke"
+      user="orange"
+      password="orange"
+  />
+
+  <apn carrier="MMS"
+      mcc="647"
+      mnc="10"
+      apn="mmssfr"
+      user="mms"
+      password="mms"
+      mmsc="http://mms"
+      mmsproxy="10.0.224.145"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="GPRS SRR"
       mcc="647"
       mnc="10"
@@ -4286,6 +4616,18 @@
       user="196,006,128,012"
       password="8080"
       type="default,supl"
+  />
+
+  <apn carrier="MMS.Vodacom"
+      mcc="655"
+      mnc="01"
+      apn="mms.vodacom.net"
+      user="196,006,128,013"
+      password="8080"
+      mmsc="http://mmsc.vodacom4me.co.za/"
+      mmsproxy="196.6.128.13"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="8ta internet"
@@ -4553,5 +4895,4 @@
       mmsport="3128"
       type="mms"
   />
-
 </apns>
