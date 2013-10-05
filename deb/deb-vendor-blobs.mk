@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/thermald:system/bin/thermald \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/asus/deb/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
