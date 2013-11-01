@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/asus/flo/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
     vendor/asus/flo/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
@@ -108,13 +108,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/asus/flo/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/asus/flo/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/asus/flo/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/asus/flo/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/asus/flo/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/asus/flo/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/asus/flo/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/asus/flo/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/asus/flo/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+    vendor/asus/flo/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/asus/flo/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/asus/flo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/asus/flo/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
@@ -153,6 +153,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/firmware/gss.b10:system/vendor/firmware/gss.b10 \
     vendor/asus/flo/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
     vendor/asus/flo/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt \
+    vendor/asus/flo/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/asus/flo/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/asus/flo/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/asus/flo/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/asus/flo/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/asus/flo/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/asus/flo/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
     vendor/asus/flo/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
