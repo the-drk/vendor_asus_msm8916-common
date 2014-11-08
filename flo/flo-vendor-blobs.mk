@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -56,25 +56,25 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/asus/flo/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/asus/flo/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
-    vendor/asus/flo/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/asus/flo/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
-    vendor/asus/flo/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
-    vendor/asus/flo/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/asus/flo/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/flo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/asus/flo/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
+    vendor/asus/flo/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/asus/flo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/asus/flo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/asus/flo/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/asus/flo/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
-    vendor/asus/flo/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
-    vendor/asus/flo/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/asus/flo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/asus/flo/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/asus/flo/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/asus/flo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_common.so:system/lib/libchromatix_ov5693_common.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
@@ -92,10 +92,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/asus/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/asus/flo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/asus/flo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/asus/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/flo/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/asus/flo/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/asus/flo/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/asus/flo/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/flo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/flo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/flo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
@@ -118,10 +119,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/asus/flo/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/asus/flo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/asus/flo/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
-    vendor/asus/flo/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
-    vendor/asus/flo/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
-    vendor/asus/flo/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+    vendor/asus/flo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/asus/flo/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/asus/flo/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/flo/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/flo/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
