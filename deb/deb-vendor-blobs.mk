@@ -43,11 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -129,7 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/deb/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/deb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    vendor/asus/deb/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/asus/deb/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/deb/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
