@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf300t/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/asus/tf300t/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/asus/tf300t/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+    vendor/asus/tf300t/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/asus/tf300t/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/asus/tf300t/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/asus/tf300t/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
@@ -195,5 +196,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf300t/proprietary/lib/mpu3050/libmllite.so:system/lib/libmllite.so \
     vendor/asus/tf300t/proprietary/lib/mpu3050/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/asus/tf300t/proprietary/lib/mpu3050/libmplmpu.so:system/lib/libmplmpu.so \
-    vendor/asus/tf300t/proprietary/lib/mpu3050/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so \
-    vendor/asus/tf300t/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so
+    vendor/asus/tf300t/proprietary/lib/mpu3050/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so
