@@ -26,6 +26,16 @@ LOCAL_MODULE_OWNER := asus
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := apns-conf
+LOCAL_SRC_FILES := apns-conf.xml
+LOCAL_MODULE_SUFFIX := .xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := asus
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := camera.tegra3
 LOCAL_SRC_FILES := camera.tegra3.so
 LOCAL_MODULE_SUFFIX := .so
