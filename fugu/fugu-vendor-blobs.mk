@@ -201,6 +201,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/libremotecontrolservice.so:system/lib/libremotecontrolservice.so \
     vendor/asus/fugu/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/fugu/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
+    vendor/asus/fugu/proprietary/usr/idc/virtual-remote.idc:system/usr/idc/virtual-remote.idc \
+    vendor/asus/fugu/proprietary/usr/keychars/virtual-remote.kcm:system/usr/keychars/virtual-remote.kcm \
+    vendor/asus/fugu/proprietary/usr/keylayout/ADT-1_Remote.kl:system/usr/keylayout/ADT-1_Remote.kl \
+    vendor/asus/fugu/proprietary/usr/keylayout/virtual-remote.kl:system/usr/keylayout/virtual-remote.kl \
     vendor/asus/fugu/proprietary/usr/share/librscruntime.bc:system/usr/share/librscruntime.bc \
     vendor/asus/fugu/proprietary/vendor/bin/bcc.moorefield:system/vendor/bin/bcc.moorefield \
     vendor/asus/fugu/proprietary/vendor/bin/framebuffer_test:system/vendor/bin/framebuffer_test \
@@ -211,6 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/vendor/bin/pvrtld:system/vendor/bin/pvrtld \
     vendor/asus/fugu/proprietary/vendor/firmware/BCM4350C0.hcd:system/vendor/firmware/BCM4350C0.hcd \
     vendor/asus/fugu/proprietary/vendor/firmware/BCM4350C0_SR2.hcd:system/vendor/firmware/BCM4350C0_SR2.hcd \
+    vendor/asus/fugu/proprietary/vendor/firmware/PR-ModelCert:system/vendor/firmware/PR-ModelCert \
     vendor/asus/fugu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/fugu/proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so:system/vendor/lib/egl/libEGL_POWERVR_ROGUE.so \
     vendor/asus/fugu/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so \
