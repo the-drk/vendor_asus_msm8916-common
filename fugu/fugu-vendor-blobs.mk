@@ -38,8 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/etc/firmware/vsp.bin.000c.0001.0001:system/etc/firmware/vsp.bin.000c.0001.0001 \
     vendor/asus/fugu/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/asus/fugu/proprietary/etc/permissions/nrdp.xml:system/etc/permissions/nrdp.xml \
-    vendor/asus/fugu/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/asus/fugu/proprietary/etc/wifi/bcmdhd_sr2.cal:system/etc/wifi/bcmdhd_sr2.cal \
     vendor/asus/fugu/proprietary/lib/arm/nb/libEGL.so:system/lib/arm/nb/libEGL.so \
     vendor/asus/fugu/proprietary/lib/arm/nb/libGLESv1_CM.so:system/lib/arm/nb/libGLESv1_CM.so \
     vendor/asus/fugu/proprietary/lib/arm/nb/libGLESv2.so:system/lib/arm/nb/libGLESv2.so \
