@@ -725,12 +725,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/mmgr_upgrade.sh:system/vendor/firmware/telephony/mmgr_upgrade.sh \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/sim_detect_726x.tlv:system/vendor/firmware/telephony/sim_detect_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1517.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1517.00_V1.1_ASUS_SPI_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_CN_726x.tlv:system/vendor/firmware/telephony/ze550ml_CN_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_JP_726x.tlv:system/vendor/firmware/telephony/ze550ml_JP_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_TH_726x.tlv:system/vendor/firmware/telephony/ze550ml_TH_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_TW_726x.tlv:system/vendor/firmware/telephony/ze550ml_TW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_US_726x.tlv:system/vendor/firmware/telephony/ze550ml_US_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_WW_726x.tlv:system/vendor/firmware/telephony/ze550ml_WW_726x.tlv \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_TW_726x.tlv:system/vendor/firmware/telephony/zx550ml_TW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_WW_726x.tlv:system/vendor/firmware/telephony/zx550ml_WW_726x.tlv \
     vendor/asus/mofd-common/proprietary/etc/sensor_hal_config_default.xml:system/etc/sensor_hal_config_default.xml \
     vendor/asus/mofd-common/proprietary/lib/arm/libnetd_client.so:system/lib/arm/libnetd_client.so \

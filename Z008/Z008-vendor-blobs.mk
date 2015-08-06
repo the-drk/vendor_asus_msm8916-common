@@ -34,5 +34,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z008/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/Z008/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/asus/Z008/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
-    vendor/asus/Z008/proprietary/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
+    vendor/asus/Z008/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/Z008/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin

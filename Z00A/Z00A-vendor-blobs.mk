@@ -37,5 +37,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd \
     vendor/asus/Z00A/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/asus/Z00A/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
-    vendor/asus/Z00A/proprietary/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
+    vendor/asus/Z00A/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/Z00A/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin
