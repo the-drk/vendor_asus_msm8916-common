@@ -313,6 +313,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/hw/gralloc.moorefield.so:system/vendor/lib/hw/gralloc.moorefield.so \
     vendor/asus/mofd-common/proprietary/bin/bd_prov:system/bin/bd_prov \
+    vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
     vendor/asus/mofd-common/proprietary/bin/sl_si_service:system/bin/sl_si_service \
     vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
