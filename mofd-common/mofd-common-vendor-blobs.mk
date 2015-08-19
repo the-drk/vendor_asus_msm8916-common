@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00ov5693.aiqb:system/etc/atomisp/00ov5693.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00ov8830-0-0x2-0.aiqb:system/etc/atomisp/00ov8830-0-0x2-0.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00ov8858.aiqb:system/etc/atomisp/00ov8858.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00t4k37.aiqb:system/etc/atomisp/00t4k37.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/01gc0339.aiqb:system/etc/atomisp/01gc0339.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/01imx132.aiqb:system/etc/atomisp/01imx132.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/01imx208.aiqb:system/etc/atomisp/01imx208.aiqb \
@@ -227,19 +228,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/firmware/isp_acc_warping_v2_em_css21_2401.bin:system/etc/firmware/isp_acc_warping_v2_em_css21_2401.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/shisp_2401a0_legacy_v21.bin:system/etc/firmware/shisp_2401a0_legacy_v21.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/shisp_2401a0_v21.bin:system/etc/firmware/shisp_2401a0_v21.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/ISP/libxditk_isp.bin:system/lib/DataSet/ISP/libxditk_isp.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_01.bin:system/lib/DataSet/SR/SR_01.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_02.bin:system/lib/DataSet/SR/SR_02.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_03.bin:system/lib/DataSet/SR/SR_03.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_04.bin:system/lib/DataSet/SR/SR_04.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_05.bin:system/lib/DataSet/SR/SR_05.bin \
-    vendor/asus/mofd-common/proprietary/lib/DataSet/SR/SR_06.bin:system/lib/DataSet/SR/SR_06.bin \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_FRONT_HL.cfg:system/lib/DIT_AT_FRONT_HL.cfg \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
-    vendor/asus/mofd-common/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
+    vendor/asus/mofd-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
+    vendor/asus/mofd-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
+    vendor/asus/mofd-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/mofd-common/proprietary/lib/DITConfig.cfg:system/lib/DITConfig.cfg \
     vendor/asus/mofd-common/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftFaceTracking.so:system/lib/libArcsoftFaceTracking.so \
@@ -274,7 +266,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/asus/mofd-common/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/asus/mofd-common/proprietary/lib/libtbd.so:system/lib/libtbd.so \
+    vendor/asus/mofd-common/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
+    vendor/asus/mofd-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
     vendor/asus/mofd-common/proprietary/media/cameraConfig/style.cng:system/media/cameraConfig/style.cng \
     vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x2-0x1.drvb:system/vendor/firmware/00imx135-0-0x2-0x1.drvb \
@@ -379,6 +373,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libmmgr_utils.so:system/lib/libmmgr_utils.so \
     vendor/asus/mofd-common/proprietary/lib/libmodemupdate.so:system/lib/libmodemupdate.so \
     vendor/asus/mofd-common/proprietary/lib/libtcs.so:system/lib/libtcs.so \
+    vendor/asus/mofd-common/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
     vendor/asus/mofd-common/proprietary/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/audiocomms_config/init.props:system/etc/catalog/V1_DSDA_NA/audiocomms_config/init.props \
     vendor/asus/mofd-common/proprietary/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm2.xml:system/etc/catalog/V1_DSDA_NA/audiocomms_config/mamgr/xmm2.xml \
@@ -719,9 +714,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_7.xml:system/etc/telephony/XMM7260_CONF_7.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_8.xml:system/etc/telephony/XMM7260_CONF_8.xml \
     vendor/asus/mofd-common/proprietary/etc/telephony/XMM7260_CONF_9.xml:system/etc/telephony/XMM7260_CONF_9.xml \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/mmgr_upgrade.sh:system/vendor/firmware/telephony/mmgr_upgrade.sh \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/sim_detect_726x.tlv:system/vendor/firmware/telephony/sim_detect_726x.tlv \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1517.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1517.00_V1.1_ASUS_SPI_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1527.01_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1527.01_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_SINGLE_REV20_1520.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_CN_726x.tlv:system/vendor/firmware/telephony/ze550ml_CN_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_JP_726x.tlv:system/vendor/firmware/telephony/ze550ml_JP_726x.tlv \

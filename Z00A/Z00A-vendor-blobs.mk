@@ -20,22 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
     vendor/asus/Z00A/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd \
-    vendor/asus/Z00A/proprietary/etc/atomisp/00t4k37.aiqb:system/etc/atomisp/00t4k37.aiqb \
-    vendor/asus/Z00A/proprietary/etc/DataSet/ispDB/ParameterDB.db:system/etc/DataSet/ispDB/ParameterDB.db \
-    vendor/asus/Z00A/proprietary/etc/DataSet/ispDB/ParameterDB.db:system/etc/DataSet/ispDB/ParameterDB.db \
-    vendor/asus/Z00A/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/Z00A/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
-    vendor/asus/Z00A/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
-    vendor/asus/Z00A/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
+    vendor/asus/Z00A/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
     vendor/asus/Z00A/proprietary/lib/hw/camera.mofd_v1.so:system/lib/hw/camera.mofd_v1.so \
     vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
-    vendor/asus/Z00A/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
-    vendor/asus/Z00A/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
-    vendor/asus/Z00A/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/Z00A/proprietary/etc/firmware/FW_INFO.bin:system/etc/firmware/FW_INFO.bin \
     vendor/asus/Z00A/proprietary/etc/firmware/M10MO_fw.bin:system/etc/firmware/M10MO_fw.bin \
     vendor/asus/Z00A/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd \
-    vendor/asus/Z00A/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
-    vendor/asus/Z00A/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
-    vendor/asus/Z00A/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/Z00A/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin

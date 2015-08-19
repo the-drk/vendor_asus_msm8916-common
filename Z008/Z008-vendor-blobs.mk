@@ -20,19 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z008/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
     vendor/asus/Z008/proprietary/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/catalog/V1_DSDA/audiocomms_config/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/asus/Z008/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd \
-    vendor/asus/Z008/proprietary/etc/atomisp/00t4k37.aiqb:system/etc/atomisp/00t4k37.aiqb \
-    vendor/asus/Z008/proprietary/etc/DataSet/ispDB/ParameterDB.db:system/etc/DataSet/ispDB/ParameterDB.db \
-    vendor/asus/Z008/proprietary/etc/DataSet/ispDB/ParameterDB.db:system/etc/DataSet/ispDB/ParameterDB.db \
-    vendor/asus/Z008/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/Z008/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
-    vendor/asus/Z008/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
-    vendor/asus/Z008/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
+    vendor/asus/Z008/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
     vendor/asus/Z008/proprietary/lib/hw/camera.mofd_v1.so:system/lib/hw/camera.mofd_v1.so \
     vendor/asus/Z008/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
-    vendor/asus/Z008/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
-    vendor/asus/Z008/proprietary/lib/libxditk_DIT_Moorefield.so:system/lib/libxditk_DIT_Moorefield.so \
-    vendor/asus/Z008/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
-    vendor/asus/Z008/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
-    vendor/asus/Z008/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
-    vendor/asus/Z008/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1524.00_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/Z008/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfigurableDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".V1GGBTXnc8/Schemas/ConfigurableDomains.xsd" SystemClassName="Audio">
+<ConfigurableDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".aR0oCVcUD5/Schemas/ConfigurableDomains.xsd" SystemClassName="Audio">
   <ConfigurableDomain Name="AudioConfiguration" SequenceAware="false">
     <Configurations>
       <Configuration Name="Default">
@@ -24782,18 +24782,24 @@
           <SelectionCriterionRule SelectionCriterion="RoutageState" MatchesWhen="Includes" Value="Configure"/>
           <CompoundRule Type="All">
             <SelectionCriterionRule SelectionCriterion="OpenedPlaybackRoutes" MatchesWhen="Includes" Value="HwCodecIA"/>
-            <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headset"/>
+            <CompoundRule Type="Any">
+              <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headset"/>
+              <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headphones"/>
+            </CompoundRule>
             <SelectionCriterionRule SelectionCriterion="FmRoute" MatchesWhen="IsNot" Value="Headset"/>
           </CompoundRule>
         </CompoundRule>
       </Configuration>
-      <Configuration Name="On-Media-Headphone">
+      <Configuration Name="On-FM-Media-Headset">
         <CompoundRule Type="All">
           <SelectionCriterionRule SelectionCriterion="RoutageState" MatchesWhen="Includes" Value="Configure"/>
           <CompoundRule Type="All">
             <SelectionCriterionRule SelectionCriterion="OpenedPlaybackRoutes" MatchesWhen="Includes" Value="HwCodecIA"/>
-            <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headphones"/>
-            <SelectionCriterionRule SelectionCriterion="FmRoute" MatchesWhen="IsNot" Value="Headset"/>
+            <CompoundRule Type="Any">
+              <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headset"/>
+              <SelectionCriterionRule SelectionCriterion="SelectedOutputDevice" MatchesWhen="Includes" Value="Headphones"/>
+            </CompoundRule>
+            <SelectionCriterionRule SelectionCriterion="FmRoute" MatchesWhen="Is" Value="Headset"/>
           </CompoundRule>
         </CompoundRule>
       </Configuration>
@@ -24842,9 +24848,9 @@
           <BooleanParameter Name="SWITCH">1</BooleanParameter>
         </ConfigurableElement>
       </Configuration>
-      <Configuration Name="On-Media-Headphone">
+      <Configuration Name="On-FM-Media-Headset">
         <ConfigurableElement Path="/Audio/RT5647/OUTPUT/HEADPHONE/ANALOG/VOLUME">
-          <IntegerParameter Name="VOLUME">31 31</IntegerParameter>
+          <IntegerParameter Name="VOLUME">23 23</IntegerParameter>
         </ConfigurableElement>
         <ConfigurableElement Path="/Audio/RT5647/MIXER/ANALOG/HEADPHONE_MIXER/LEFT/DAC/1/SWITCH">
           <BooleanParameter Name="SWITCH">1</BooleanParameter>
