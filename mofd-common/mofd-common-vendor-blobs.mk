@@ -153,8 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
-    vendor/asus/mofd-common/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/asus/mofd-common/proprietary/etc/route_criteria.conf:system/etc/route_criteria.conf \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_probes.xml:system/etc/tuning/audio/layout_probes.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_topology.xml:system/etc/tuning/audio/layout_topology.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_types.xml:system/etc/tuning/audio/layout_types.xml \
