@@ -365,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
     vendor/asus/mofd-common/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
-    vendor/asus/mofd-common/proprietary/lib/hw/power.mofd_v1.so:system/lib/hw/power.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libmcdr.so:system/lib/libmcdr.so \
     vendor/asus/mofd-common/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
     vendor/asus/mofd-common/proprietary/lib/libmmgr_cnx.so:system/lib/libmmgr_cnx.so \
