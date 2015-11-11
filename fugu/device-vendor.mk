@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     AtvRemoteService \
     GlobalKeyInterceptor \
     LeanbackLauncher \
+    Overscan \
     RemoteControlService \
     TV
 
