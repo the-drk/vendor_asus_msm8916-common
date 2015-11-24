@@ -17,15 +17,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),grouper)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors-config
-LOCAL_SRC_FILES := sensors-config
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := asus
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := camera.tegra3
 LOCAL_SRC_FILES := camera.tegra3.so
 LOCAL_MODULE_SUFFIX := .so
