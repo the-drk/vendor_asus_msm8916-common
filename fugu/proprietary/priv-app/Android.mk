@@ -29,6 +29,16 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := GamepadPairingService
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := GamepadPairingService/GamepadPairingService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := GlobalKeyInterceptor
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := GlobalKeyInterceptor/GlobalKeyInterceptor.apk

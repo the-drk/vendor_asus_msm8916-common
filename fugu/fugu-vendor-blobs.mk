@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/bin/BtFwLoader:system/bin/BtFwLoader \
     vendor/asus/fugu/proprietary/bin/houdini:system/bin/houdini \
+    vendor/asus/fugu/proprietary/bin/teeprov:system/bin/teeprov \
     vendor/asus/fugu/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
     vendor/asus/fugu/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/fugu/proprietary/etc/binfmt_misc/disable:system/etc/binfmt_misc/disable \
@@ -47,12 +48,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libart.so:system/lib/arm/libart.so \
     vendor/asus/fugu/proprietary/lib/arm/libaudioflinger.so:system/lib/arm/libaudioflinger.so \
     vendor/asus/fugu/proprietary/lib/arm/libaudioresampler.so:system/lib/arm/libaudioresampler.so \
+    vendor/asus/fugu/proprietary/lib/arm/libaudiospdif.so:system/lib/arm/libaudiospdif.so \
     vendor/asus/fugu/proprietary/lib/arm/libaudioutils.so:system/lib/arm/libaudioutils.so \
     vendor/asus/fugu/proprietary/lib/arm/libbacktrace_libc++.so:system/lib/arm/libbacktrace_libc++.so \
     vendor/asus/fugu/proprietary/lib/arm/libbacktrace.so:system/lib/arm/libbacktrace.so \
+    vendor/asus/fugu/proprietary/lib/arm/libbase.so:system/lib/arm/libbase.so \
     vendor/asus/fugu/proprietary/lib/arm/libbcc.so:system/lib/arm/libbcc.so \
     vendor/asus/fugu/proprietary/lib/arm/libbcinfo.so:system/lib/arm/libbcinfo.so \
     vendor/asus/fugu/proprietary/lib/arm/libbinder.so:system/lib/arm/libbinder.so \
+    vendor/asus/fugu/proprietary/lib/arm/libblas.so:system/lib/arm/libblas.so \
     vendor/asus/fugu/proprietary/lib/arm/libcamera_client.so:system/lib/arm/libcamera_client.so \
     vendor/asus/fugu/proprietary/lib/arm/libcamera_metadata.so:system/lib/arm/libcamera_metadata.so \
     vendor/asus/fugu/proprietary/lib/arm/libcommon_time_client.so:system/lib/arm/libcommon_time_client.so \
@@ -68,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libemoji.so:system/lib/arm/libemoji.so \
     vendor/asus/fugu/proprietary/lib/arm/libETC1.so:system/lib/arm/libETC1.so \
     vendor/asus/fugu/proprietary/lib/arm/libexpat.so:system/lib/arm/libexpat.so \
+    vendor/asus/fugu/proprietary/lib/arm/libFFTEm.so:system/lib/arm/libFFTEm.so \
     vendor/asus/fugu/proprietary/lib/arm/libfilterfw.so:system/lib/arm/libfilterfw.so \
     vendor/asus/fugu/proprietary/lib/arm/libfilterpack_imageproc.so:system/lib/arm/libfilterpack_imageproc.so \
     vendor/asus/fugu/proprietary/lib/arm/libft2.so:system/lib/arm/libft2.so \
@@ -76,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libGLES_trace.so:system/lib/arm/libGLES_trace.so \
     vendor/asus/fugu/proprietary/lib/arm/libGLESv1_CM.so:system/lib/arm/libGLESv1_CM.so \
     vendor/asus/fugu/proprietary/lib/arm/libGLESv2.so:system/lib/arm/libGLESv2.so \
+    vendor/asus/fugu/proprietary/lib/arm/libGLESv3.so:system/lib/arm/libGLESv3.so \
     vendor/asus/fugu/proprietary/lib/arm/libgui.so:system/lib/arm/libgui.so \
     vendor/asus/fugu/proprietary/lib/arm/libhardware_legacy.so:system/lib/arm/libhardware_legacy.so \
     vendor/asus/fugu/proprietary/lib/arm/libhardware.so:system/lib/arm/libhardware.so \
@@ -91,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libLLVM.so:system/lib/arm/libLLVM.so \
     vendor/asus/fugu/proprietary/lib/arm/liblog.so:system/lib/arm/liblog.so \
     vendor/asus/fugu/proprietary/lib/arm/libmediandk.so:system/lib/arm/libmediandk.so \
+    vendor/asus/fugu/proprietary/lib/arm/libmediautils.so:system/lib/arm/libmediautils.so \
     vendor/asus/fugu/proprietary/lib/arm/libmedia.so:system/lib/arm/libmedia.so \
     vendor/asus/fugu/proprietary/lib/arm/libmemtrack.so:system/lib/arm/libmemtrack.so \
     vendor/asus/fugu/proprietary/lib/arm/libminikin.so:system/lib/arm/libminikin.so \
@@ -101,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libnetd_client.so:system/lib/arm/libnetd_client.so \
     vendor/asus/fugu/proprietary/lib/arm/libnetutils.so:system/lib/arm/libnetutils.so \
     vendor/asus/fugu/proprietary/lib/arm/libnfc_ndef.so:system/lib/arm/libnfc_ndef.so \
+    vendor/asus/fugu/proprietary/lib/arm/libnl.so:system/lib/arm/libnl.so \
     vendor/asus/fugu/proprietary/lib/arm/libOpenMAXAL.so:system/lib/arm/libOpenMAXAL.so \
     vendor/asus/fugu/proprietary/lib/arm/libOpenSLES.so:system/lib/arm/libOpenSLES.so \
     vendor/asus/fugu/proprietary/lib/arm/libopus.so:system/lib/arm/libopus.so \
@@ -110,13 +118,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/arm/libpng.so:system/lib/arm/libpng.so \
     vendor/asus/fugu/proprietary/lib/arm/libpowermanager.so:system/lib/arm/libpowermanager.so \
     vendor/asus/fugu/proprietary/lib/arm/libprocessgroup.so:system/lib/arm/libprocessgroup.so \
+    vendor/asus/fugu/proprietary/lib/arm/libprotobuf-cpp-lite.so:system/lib/arm/libprotobuf-cpp-lite.so \
+    vendor/asus/fugu/proprietary/lib/arm/libradio.so:system/lib/arm/libradio.so \
+    vendor/asus/fugu/proprietary/lib/arm/libradio_metadata.so:system/lib/arm/libradio_metadata.so \
     vendor/asus/fugu/proprietary/lib/arm/libRScpp.so:system/lib/arm/libRScpp.so \
     vendor/asus/fugu/proprietary/lib/arm/libRSCpuRef.so:system/lib/arm/libRSCpuRef.so \
     vendor/asus/fugu/proprietary/lib/arm/libRSDriver.so:system/lib/arm/libRSDriver.so \
     vendor/asus/fugu/proprietary/lib/arm/libRS.so:system/lib/arm/libRS.so \
     vendor/asus/fugu/proprietary/lib/arm/libselinux.so:system/lib/arm/libselinux.so \
+    vendor/asus/fugu/proprietary/lib/arm/libserviceutility.so:system/lib/arm/libserviceutility.so \
     vendor/asus/fugu/proprietary/lib/arm/libsigchain.so:system/lib/arm/libsigchain.so \
     vendor/asus/fugu/proprietary/lib/arm/libskia.so:system/lib/arm/libskia.so \
+    vendor/asus/fugu/proprietary/lib/arm/libsonic.so:system/lib/arm/libsonic.so \
     vendor/asus/fugu/proprietary/lib/arm/libsonivox.so:system/lib/arm/libsonivox.so \
     vendor/asus/fugu/proprietary/lib/arm/libsoundtrigger.so:system/lib/arm/libsoundtrigger.so \
     vendor/asus/fugu/proprietary/lib/arm/libspeexresampler.so:system/lib/arm/libspeexresampler.so \
@@ -192,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/fugu/proprietary/lib/libmfxsw32.so:system/lib/libmfxsw32.so \
     vendor/asus/fugu/proprietary/lib/libmixvbp_h264secure.so:system/lib/libmixvbp_h264secure.so \
     vendor/asus/fugu/proprietary/lib/libmixvbp_h264.so:system/lib/libmixvbp_h264.so \
+    vendor/asus/fugu/proprietary/lib/libmixvbp_mpeg2.so:system/lib/libmixvbp_mpeg2.so \
     vendor/asus/fugu/proprietary/lib/libmixvbp_mpeg4.so:system/lib/libmixvbp_mpeg4.so \
     vendor/asus/fugu/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/fugu/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
