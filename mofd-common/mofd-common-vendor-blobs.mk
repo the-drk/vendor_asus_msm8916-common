@@ -291,7 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/00ov8830-0-0x2-0.drvb:system/vendor/firmware/00ov8830-0-0x2-0.drvb \
     vendor/asus/mofd-common/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
     vendor/asus/mofd-common/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
-    vendor/asus/mofd-common/proprietary/lib/hw/keystore.moorefield.so:system/lib/hw/keystore.moorefield.so \
+    vendor/asus/mofd-common/proprietary/lib/hw/keystore.vendor.moorefield.so:system/lib/hw/keystore.vendor.moorefield.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
