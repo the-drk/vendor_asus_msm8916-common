@@ -18,6 +18,7 @@ $(call inherit-product, vendor/asus/fugu/fugu-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    CanvasPackageInstaller \
     LeanbackIme
 
 # Prebuilt jars
