@@ -736,7 +736,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_WW_726x.tlv:system/vendor/firmware/telephony/ze550ml_WW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_TW_726x.tlv:system/vendor/firmware/telephony/zx550ml_TW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_WW_726x.tlv:system/vendor/firmware/telephony/zx550ml_WW_726x.tlv \
-    vendor/asus/mofd-common/proprietary/etc/sensor_hal_config_default.xml:system/etc/sensor_hal_config_default.xml \
     vendor/asus/mofd-common/proprietary/lib/hw/sensors.mofd_v1.so:system/lib/hw/sensors.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \
     vendor/asus/mofd-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
