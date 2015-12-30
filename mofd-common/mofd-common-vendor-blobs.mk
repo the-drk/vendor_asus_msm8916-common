@@ -274,7 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libimf.so:system/lib/libimf.so \
     vendor/asus/mofd-common/proprietary/lib/libintlc.so:system/lib/libintlc.so \
     vendor/asus/mofd-common/proprietary/lib/libirng.so:system/lib/libirng.so \
-    vendor/asus/mofd-common/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/mofd-common/proprietary/lib/libmix_imagedecoder.so:system/lib/libmix_imagedecoder.so \
     vendor/asus/mofd-common/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/asus/mofd-common/proprietary/lib/libsvml.so:system/lib/libsvml.so \
