@@ -253,6 +253,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftStabilizer.so:system/lib/libArcsoftStabilizer.so \
     vendor/asus/mofd-common/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
+    vendor/asus/mofd-common/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
+    vendor/asus/mofd-common/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
+    vendor/asus/mofd-common/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/asus/mofd-common/proprietary/lib/libcilkrts.so:system/lib/libcilkrts.so \
     vendor/asus/mofd-common/proprietary/lib/libia_aiq.so:system/lib/libia_aiq.so \
     vendor/asus/mofd-common/proprietary/lib/libia_cmc_parser.so:system/lib/libia_cmc_parser.so \
