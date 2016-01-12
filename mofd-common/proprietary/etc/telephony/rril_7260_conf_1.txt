@@ -193,7 +193,7 @@ Group Modem
    ApnTypeFOTA       2
 
 // TE profile used for SATK
-   TeProfile         08E09721610F00186900001FE21FFFE6C72B0000070508002100000000180000
+   TeProfile         08E09721610F00186900001FE2000006C70B0000070400000100000000080000
 
 // MT mask used for SATK to disable modem features
 // Byte 22.2 PROVIDE_LOCAL_INFORMATION (Battery State) class 'g'

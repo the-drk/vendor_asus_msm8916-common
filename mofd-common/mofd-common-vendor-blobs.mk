@@ -730,7 +730,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/mmgr_upgrade.sh:system/vendor/firmware/telephony/mmgr_upgrade.sh \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/sim_detect_726x.tlv:system/vendor/firmware/telephony/sim_detect_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_2230_REV20_1527.00_V1.1_ASUS_SPI_FLASHLESS.fls \
-    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1527.01_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1527.01_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/XMM_7260_REV20_1527.02_V4.0_ASUS7262_HSIC_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7260_REV20_1527.02_V4.0_ASUS7262_HSIC_FLASHLESS.fls \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_CN_726x.tlv:system/vendor/firmware/telephony/ze550ml_CN_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_JP_726x.tlv:system/vendor/firmware/telephony/ze550ml_JP_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_TH_726x.tlv:system/vendor/firmware/telephony/ze550ml_TH_726x.tlv \
