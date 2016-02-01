@@ -362,6 +362,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/mofd-common/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/asus/mofd-common/proprietary/lib/hw/lights.vendor.mofd_v1.so:system/lib/hw/lights.vendor.mofd_v1.so \
+    vendor/asus/mofd-common/proprietary/bin/intel_prop:system/bin/intel_prop \
     vendor/asus/mofd-common/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
     vendor/asus/mofd-common/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
     vendor/asus/mofd-common/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
