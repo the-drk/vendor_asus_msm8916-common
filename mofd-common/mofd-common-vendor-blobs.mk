@@ -165,6 +165,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
+    vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
+    vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
+    vendor/asus/mofd-common/proprietary/bin/sl_si_service:system/bin/sl_si_service \
+    vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
+    vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
+    vendor/asus/mofd-common/proprietary/etc/firmware/aac_dec_1495.bin:system/etc/firmware/aac_dec_1495.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/audclass_lib_1495.bin:system/etc/firmware/audclass_lib_1495.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/dfw_sst.bin:system/etc/firmware/dfw_sst.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/fw_sst_1495.bin:system/etc/firmware/fw_sst_1495.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/geq_lib_1495.bin:system/etc/firmware/geq_lib_1495.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/mp3_dec_1495.bin:system/etc/firmware/mp3_dec_1495.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/vtsv_lib_1495.bin:system/etc/firmware/vtsv_lib_1495.bin \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_probes.xml:system/etc/tuning/audio/layout_probes.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_topology.xml:system/etc/tuning/audio/layout_topology.xml \
     vendor/asus/mofd-common/proprietary/etc/tuning/audio/layout_types.xml:system/etc/tuning/audio/layout_types.xml \
@@ -196,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/asus/mofd-common/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/mofd-common/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
+    vendor/asus/mofd-common/proprietary/bin/bd_prov:system/bin/bd_prov \
     vendor/asus/mofd-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00gc2235.aiqb:system/etc/atomisp/00gc2235.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00imx134.aiqb:system/etc/atomisp/00imx134.aiqb \
@@ -236,6 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/firmware/isp_acc_sce_em_css21_2401.bin:system/etc/firmware/isp_acc_sce_em_css21_2401.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/isp_acc_warping_v2_css21_2401.bin:system/etc/firmware/isp_acc_warping_v2_css21_2401.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/isp_acc_warping_v2_em_css21_2401.bin:system/etc/firmware/isp_acc_warping_v2_em_css21_2401.bin \
+    vendor/asus/mofd-common/proprietary/etc/firmware/ov680_fw.bin:system/etc/firmware/ov680_fw.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/shisp_2401a0_legacy_v21.bin:system/etc/firmware/shisp_2401a0_legacy_v21.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/shisp_2401a0_v21.bin:system/etc/firmware/shisp_2401a0_v21.bin \
     vendor/asus/mofd-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
@@ -323,38 +337,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/hw/gralloc.moorefield.so:system/vendor/lib/hw/gralloc.moorefield.so \
-    vendor/asus/mofd-common/proprietary/bin/bd_prov:system/bin/bd_prov \
-    vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
-    vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
-    vendor/asus/mofd-common/proprietary/bin/sl_si_service:system/bin/sl_si_service \
-    vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
-    vendor/asus/mofd-common/proprietary/bin/nvm_server:system/bin/nvm_server \
-    vendor/asus/mofd-common/proprietary/bin/sensorhubd:system/bin/sensorhubd \
-    vendor/asus/mofd-common/proprietary/bin/mmgr:system/bin/mmgr \
-    vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
-    vendor/asus/mofd-common/proprietary/etc/firmware/aac_dec_1495.bin:system/etc/firmware/aac_dec_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/audclass_lib_1495.bin:system/etc/firmware/audclass_lib_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/dfw_sst.bin:system/etc/firmware/dfw_sst.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/fw_sst_1495.bin:system/etc/firmware/fw_sst_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/geq_lib_1495.bin:system/etc/firmware/geq_lib_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/mp3_dec_1495.bin:system/etc/firmware/mp3_dec_1495.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.prod:system/etc/firmware/msvdx.bin.prod \
-    vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.verf:system/etc/firmware/msvdx.bin.verf \
-    vendor/asus/mofd-common/proprietary/etc/firmware/ov680_fw.bin:system/etc/firmware/ov680_fw.bin \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002:system/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002 \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000 \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001 \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001 \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.zx550ml:system/etc/firmware/psh.bin.zx550ml \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_gff.img:system/etc/firmware/s3202_gff.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3400_cgs.img:system/etc/firmware/s3400_cgs.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3400_igzo.img:system/etc/firmware/s3400_igzo.img \
-    vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.prod:system/etc/firmware/topaz.bin.prod \
-    vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.verf:system/etc/firmware/topaz.bin.verf \
-    vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.prod:system/etc/firmware/vsp.bin.prod \
-    vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.verf:system/etc/firmware/vsp.bin.verf \
-    vendor/asus/mofd-common/proprietary/etc/firmware/vtsv_lib_1495.bin:system/etc/firmware/vtsv_lib_1495.bin \
     vendor/asus/mofd-common/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/asus/mofd-common/proprietary/lib/hw/gps.mofd_v1.so:system/lib/hw/gps.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
@@ -363,6 +349,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/asus/mofd-common/proprietary/lib/hw/lights.vendor.mofd_v1.so:system/lib/hw/lights.vendor.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/bin/intel_prop:system/bin/intel_prop \
+    vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.prod:system/etc/firmware/msvdx.bin.prod \
+    vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.verf:system/etc/firmware/msvdx.bin.verf \
+    vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.prod:system/etc/firmware/topaz.bin.prod \
+    vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.verf:system/etc/firmware/topaz.bin.verf \
+    vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.prod:system/etc/firmware/vsp.bin.prod \
+    vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.verf:system/etc/firmware/vsp.bin.verf \
     vendor/asus/mofd-common/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
     vendor/asus/mofd-common/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
     vendor/asus/mofd-common/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
@@ -379,6 +371,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
     vendor/asus/mofd-common/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
+    vendor/asus/mofd-common/proprietary/bin/mmgr:system/bin/mmgr \
+    vendor/asus/mofd-common/proprietary/bin/nvm_server:system/bin/nvm_server \
     vendor/asus/mofd-common/proprietary/lib/libmcdr.so:system/lib/libmcdr.so \
     vendor/asus/mofd-common/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
     vendor/asus/mofd-common/proprietary/lib/libmmgr_cnx.so:system/lib/libmmgr_cnx.so \
@@ -739,10 +733,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_WW_726x.tlv:system/vendor/firmware/telephony/ze550ml_WW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_TW_726x.tlv:system/vendor/firmware/telephony/zx550ml_TW_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/zx550ml_WW_726x.tlv:system/vendor/firmware/telephony/zx550ml_WW_726x.tlv \
+    vendor/asus/mofd-common/proprietary/bin/sensorhubd:system/bin/sensorhubd \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002:system/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002 \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000 \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001 \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001 \
+    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.zx550ml:system/etc/firmware/psh.bin.zx550ml \
     vendor/asus/mofd-common/proprietary/lib/hw/sensors.mofd_v1.so:system/lib/hw/sensors.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \
     vendor/asus/mofd-common/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/asus/mofd-common/proprietary/lib/libvirtualsensors.so:system/lib/libvirtualsensors.so \
+    vendor/asus/mofd-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/asus/mofd-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/asus/mofd-common/proprietary/etc/wifi/bcmdhd_zx551ml.cal:system/etc/wifi/bcmdhd_zx551ml.cal \
     vendor/asus/mofd-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
