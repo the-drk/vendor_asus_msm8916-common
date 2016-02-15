@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfigurableDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".Y87F0UCKs7/Schemas/ConfigurableDomains.xsd" SystemClassName="Audio">
+<ConfigurableDomains xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=".jqawVp4wiF/Schemas/ConfigurableDomains.xsd" SystemClassName="Audio">
   <ConfigurableDomain Name="AudioConfiguration" SequenceAware="false">
     <Configurations>
       <Configuration Name="Default">
@@ -21903,6 +21903,8 @@
       <ConfigurableElement Path="/Audio/sst/pipe/tx_speech_loop/in_gain/mute"/>
       <ConfigurableElement Path="/Audio/sst/pipe/rx_speech_loop/out_gain/mute"/>
       <ConfigurableElement Path="/Audio/sst/pipe/rx_speech_loop/in_gain/mute"/>
+      <ConfigurableElement Path="/Audio/sst/pipe/hf_ref/gain/mute"/>
+      <ConfigurableElement Path="/Audio/sst/pipe/sidetone/gain/mute"/>
     </ConfigurableElements>
     <Settings>
       <Configuration Name="Default">
@@ -21937,6 +21939,12 @@
           <BooleanParameter Name="mute">0</BooleanParameter>
         </ConfigurableElement>
         <ConfigurableElement Path="/Audio/sst/pipe/rx_speech_loop/in_gain/mute">
+          <BooleanParameter Name="mute">0</BooleanParameter>
+        </ConfigurableElement>
+        <ConfigurableElement Path="/Audio/sst/pipe/hf_ref/gain/mute">
+          <BooleanParameter Name="mute">0</BooleanParameter>
+        </ConfigurableElement>
+        <ConfigurableElement Path="/Audio/sst/pipe/sidetone/gain/mute">
           <BooleanParameter Name="mute">0</BooleanParameter>
         </ConfigurableElement>
       </Configuration>
@@ -22314,43 +22322,6 @@
       </Configuration>
       <Configuration Name="Mute">
         <ConfigurableElement Path="/Audio/sst/pipe/modem_in/gain/mute">
-          <BooleanParameter Name="mute">1</BooleanParameter>
-        </ConfigurableElement>
-      </Configuration>
-    </Settings>
-  </ConfigurableDomain>
-  <ConfigurableDomain Name="Routing.Sst.Mute.Speech.Uplink" SequenceAware="false">
-    <Configurations>
-      <Configuration Name="Unmute">
-        <CompoundRule Type="All">
-          <SelectionCriterionRule SelectionCriterion="RoutageState" MatchesWhen="Includes" Value="Flow"/>
-          <SelectionCriterionRule SelectionCriterion="MicMute" MatchesWhen="Is" Value="Off"/>
-        </CompoundRule>
-      </Configuration>
-      <Configuration Name="Mute">
-        <CompoundRule Type="All">
-          <SelectionCriterionRule SelectionCriterion="RoutageState" MatchesWhen="Includes" Value="Flow"/>
-        </CompoundRule>
-      </Configuration>
-    </Configurations>
-    <ConfigurableElements>
-      <ConfigurableElement Path="/Audio/sst/pipe/hf_ref/gain/mute"/>
-      <ConfigurableElement Path="/Audio/sst/pipe/sidetone/gain/mute"/>
-    </ConfigurableElements>
-    <Settings>
-      <Configuration Name="Unmute">
-        <ConfigurableElement Path="/Audio/sst/pipe/hf_ref/gain/mute">
-          <BooleanParameter Name="mute">0</BooleanParameter>
-        </ConfigurableElement>
-        <ConfigurableElement Path="/Audio/sst/pipe/sidetone/gain/mute">
-          <BooleanParameter Name="mute">0</BooleanParameter>
-        </ConfigurableElement>
-      </Configuration>
-      <Configuration Name="Mute">
-        <ConfigurableElement Path="/Audio/sst/pipe/hf_ref/gain/mute">
-          <BooleanParameter Name="mute">1</BooleanParameter>
-        </ConfigurableElement>
-        <ConfigurableElement Path="/Audio/sst/pipe/sidetone/gain/mute">
           <BooleanParameter Name="mute">1</BooleanParameter>
         </ConfigurableElement>
       </Configuration>
