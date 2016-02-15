@@ -425,7 +425,7 @@
 		<supportedPreviewFrameRate value="30,15,10"/>
 		<supportedPreviewFPSRange value="(4000,50000)"/>
 		<defaultPreviewFPSRange value="4000,50000"/> <!-- one value of the supportedPreviewFPSRange -->
-		<defaultPreviewSize value="1920x1080"/>
+		<defaultPreviewSize value="640x480"/>
 		<defaultVideoSize value="1920x1080"/>
 		<supportedSdvSizes value="640x480,720x480,1920x1080,1280x720"/>
 		<supportedPreviewUpdateModes value="standard,continuous,during-capture,windowless"/>
