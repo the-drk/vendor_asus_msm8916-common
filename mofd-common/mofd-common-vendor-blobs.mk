@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/bin/sl_si_service:system/bin/sl_si_service \
     vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
     vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
+    vendor/asus/mofd-common/proprietary/etc/permissions/asus.software.zenui.xml:system/etc/permissions/asus.software.zenui.xml \
     vendor/asus/mofd-common/proprietary/etc/firmware/aac_dec_1495.bin:system/etc/firmware/aac_dec_1495.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/audclass_lib_1495.bin:system/etc/firmware/audclass_lib_1495.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/dfw_sst.bin:system/etc/firmware/dfw_sst.bin \
@@ -367,6 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_vp8.so:system/lib/libmixvbp_vp8.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderAVC.so:system/lib/libOMXVideoDecoderAVC.so \
     vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
