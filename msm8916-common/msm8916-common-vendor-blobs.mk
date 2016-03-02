@@ -92,6 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/asus/msm8916-common/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
+    vendor/asus/msm8916-common/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
+    vendor/asus/msm8916-common/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/asus/msm8916-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
