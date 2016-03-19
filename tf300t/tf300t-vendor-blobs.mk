@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -51,8 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf300t/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/asus/tf300t/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/asus/tf300t/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
-    vendor/asus/tf300t/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/asus/tf300t/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/asus/tf300t/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf300t/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/asus/tf300t/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -154,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf300t/proprietary/lib/libsensors.ltr558als.so:system/lib/libsensors.ltr558als.so \
     vendor/asus/tf300t/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/asus/tf300t/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/asus/tf300t/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/asus/tf300t/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/tf300t/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/asus/tf300t/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
