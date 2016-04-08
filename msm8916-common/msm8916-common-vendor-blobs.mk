@@ -359,10 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib64/libmplmpu.so:system/lib64/libmplmpu.so \
     vendor/asus/msm8916-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/bin/tfamode:system/bin/tfamode \
-    vendor/asus/msm8916-common/proprietary/etc/Tfa9887.cnt:system/etc/Tfa9887.cnt \
-    vendor/asus/msm8916-common/proprietary/lib/libtfa9887.so:system/lib/libtfa9887.so \
-    vendor/asus/msm8916-common/proprietary/lib64/libtfa9887.so:system/lib64/libtfa9887.so \
     vendor/asus/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
