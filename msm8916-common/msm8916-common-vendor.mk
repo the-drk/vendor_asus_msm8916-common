@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02
+    libloc_api_v02 \
+    libloc_ds_api
 
 PRODUCT_PACKAGES += \
     libtime_genoff
