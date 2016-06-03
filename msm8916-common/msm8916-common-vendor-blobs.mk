@@ -299,6 +299,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/asus/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/asus/msm8916-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
@@ -336,6 +337,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/asus/msm8916-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/asus/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/asus/msm8916-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/asus/msm8916-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/asus/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/asus/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
