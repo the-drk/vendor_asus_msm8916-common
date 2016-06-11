@@ -240,6 +240,26 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
+    vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_HL.cfg:system/lib/DIT_AT_FRONT_HL.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DITConfig.cfg:system/lib/DITConfig.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/libxditk_ArcSoftMOD.so:system/lib/libxditk_ArcSoftMOD.so \
+    vendor/asus/msm8916-common/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
+    vendor/asus/msm8916-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
+    vendor/asus/msm8916-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_DIT_MSM8916.so:system/vendor/lib/libxditk_DIT_MSM8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_DIT_Qualcomm.so:system/vendor/lib/libxditk_DIT_Qualcomm.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_mmcamera2_stats_algorithm.so:system/vendor/lib/libxditk_mmcamera2_stats_algorithm.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_Network.so:system/vendor/lib/libxditk_Network.so \
     vendor/asus/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -429,23 +449,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
-    vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_HL.cfg:system/lib/DIT_AT_FRONT_HL.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DITConfig.cfg:system/lib/DITConfig.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/libxditk_ArcSoftMOD.so:system/lib/libxditk_ArcSoftMOD.so \
-    vendor/asus/msm8916-common/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
-    vendor/asus/msm8916-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
-    vendor/asus/msm8916-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_DIT_MSM8916.so:system/vendor/lib/libxditk_DIT_MSM8916.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_DIT_Qualcomm.so:system/vendor/lib/libxditk_DIT_Qualcomm.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_mmcamera2_stats_algorithm.so:system/vendor/lib/libxditk_mmcamera2_stats_algorithm.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_Network.so:system/vendor/lib/libxditk_Network.so
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so
