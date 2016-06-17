@@ -64,10 +64,17 @@
 		<link>
 			<link_uart device="![CDATA[/dev/ttyMFD1]]" baudrate="3000000"/>
 		</link>
-		<power
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:05.1/power/control]]"
-			on="auto"
-			off="on"
-		/>
+		<powers>
+			<power
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:05.1/power/control]]"
+				on="auto"
+				off="on"
+			/>
+		</powers>
 	</mcdr>
+	<mup>
+		<general
+			folder="/logs"
+		/>
+	</mup>
 </mmgr_config>

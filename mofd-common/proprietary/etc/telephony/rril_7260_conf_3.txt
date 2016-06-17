@@ -70,7 +70,7 @@ Group RequestTimeouts
 
 Group InternalRequestTimeouts
     SilentPinEntry                       20000
-    QuerySimSmsStoreStatus               30000
+    QuerySimSmsStoreStatus              130000
     SetProfileDownloadForNextUiccStartup 30000
     ConfigureUsatProfileDownload         30000
     QueryUiccState                       30000
@@ -103,8 +103,13 @@ Group RILSettings
 
 // Pin Caching mode
 // 1 - Pin caching in file system
+//     If 'file system' mode is used, you need to set PinCacheFileFS in order to provide
+//     the path used
 // 2 - Pin caching in NVRAM
-    PinCacheMode 2
+    PinCacheMode 1
+
+// Pin Caching FS path
+    PinCacheFileFS /data/telephony/dump
 
 // Settable values for the InitCmds group include:
 //   PreInitCmds,  PreReinitCmds,  PreUnlockCmds,  PreSmsInitCmds
@@ -135,12 +140,6 @@ Group Modem
 // Enable modem power off in flightmode
 // If set to 1 RRIL will request to power off the modem once flightmode is enabled
     EnableModemOffInFlightMode 1
-
-// EnableCellInfo - Enable support for reporting of serving and neighbour cell info
-//      If set to "1", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is supported
-//      If set to "0", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is not supported
-//      If missing, the default value will be "1" and cell info will be supported.
-    EnableCellInfo              1
 
 // EnableCipheringInd - Enable support for reporting of ciphering indication
 //      If set to "1", Ciphering Indication is supported
@@ -193,7 +192,7 @@ Group Modem
    ApnTypeFOTA       2
 
 // TE profile used for SATK
-   TeProfile         08E09721610F00186900001FE21FFFE6C72B0000070508002100000000180000
+   TeProfile         08E09721610F00186900001FE21FFFE6C72B0000070508000100000000080000
 
 // MT mask used for SATK to disable modem features
 // Byte 22.2 PROVIDE_LOCAL_INFORMATION (Battery State) class 'g'
@@ -223,6 +222,7 @@ Group Modem
 // System Capability settings - Set a modem's capabilities using various flags
 //  These flags control the sending of init commands to a channel during initialization.
 //      "VoiceCapable" - Set to "0" to disable voice calls, otherwise enabled by default.
+//      "DataCapable" - Set to "0" to disable data calls, otherwise enabled by default.
 //      "SmsOverCSCapable" - Set to "0" to disable SMS over CS, otherwise enabled by default.
 //      "SmsOverPSCapable" - Set to "0" to disable SMS over PS, otherwise enabled by default.
 //      "StkCapable" - Set to "0" to disable STK support, otherwise enabled by default.
@@ -235,6 +235,7 @@ Group Modem
 //      "EnableSignalStrengthReporting" - Set to "1" configures the modem to report signal strength
 //                          changes via an URC.
 //    VoiceCapable                0
+//    DataCapable                 0
 //    SmsOverCSCapable            0
 //    SmsOverPSCapable            0
 //    StkCapable                  0
@@ -254,7 +255,7 @@ Group Modem
 // XCESQRC values must be aligned with levels defined in
 // /frameworks/base/telephony/java/android/telephony/SignalStrength.java
     BarMapping2GParameters 4,1,7,13,21
-    BarMapping3GParameters 4,1,12,18,24,32,0
+    BarMapping3GParameters 4,12,18,24,32,0
     BarMappingLteParameters 4,26,36,46,56,0,4,-6,2,9,26
 
 // Log levels

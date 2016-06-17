@@ -16,11 +16,13 @@
 		<baseband>
 			<link_spi device="![CDATA[/dev/ttyXMM0]]" high_speed="false"/>
 		</baseband>
-		<power
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:04.2/power/control]]"
-			on="auto"
-			off="on"
-		/>
+		<powers>
+			<power
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:04.2/power/control]]"
+				on="auto"
+				off="on"
+			/>
+		</powers>
 	</modem_link>
 	<mdm_ctrl
 		path="/dev/mdm_ctrl1"
@@ -57,15 +59,22 @@
 			protocol="lcdp"
 			folder="/logs/modemcrash/mmgr2"
 			timeout="180"
-			enable_cd_log="true"
+			enable_cd_log="false"
 		/>
 		<link>
 			<link_uart device="![CDATA[/dev/ttyMFD1]]" baudrate="3000000"/>
 		</link>
-		<power
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:04.2/power/control]]"
-			on="auto"
-			off="on"
-		/>
+		<powers>
+			<power
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:04.2/power/control]]"
+				on="auto"
+				off="on"
+			/>
+		</powers>
 	</mcdr>
+	<mup>
+		<general
+			folder="/logs"
+		/>
+	</mup>
 </mmgr_config>

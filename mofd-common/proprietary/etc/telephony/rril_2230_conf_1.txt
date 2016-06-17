@@ -97,6 +97,8 @@ Group RILSettings
 
 // Pin Caching mode
 // 1 - Pin caching in file system
+//     If 'file system' mode is used, you need to set PinCacheFileFS in order to provide
+//     the path used
 // 2 - Pin caching in NVRAM
     PinCacheMode  2
 
@@ -131,12 +133,6 @@ Group Modem
 // Enable modem power off in flightmode
 // If set to 1 RRIL will request to power off the modem once flightmode is enabled
     EnableModemOffInFlightMode 0
-
-// EnableCellInfo - Enable support for reporting of serving and neighbour cell info
-//      If set to "1", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is supported
-//      If set to "0", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is not supported
-//      If missing, the default value will be "1" and cell info will be supported.
-    EnableCellInfo              1
 
 // EnableCipheringInd - Enable support for reporting of ciphering indication
 //      If set to "1", Ciphering Indication is supported
@@ -223,7 +219,7 @@ Group Modem
 //      "EnableSignalStrengthReporting" - Set to "1" configures the modem to report signal strength
 //                          changes via an URC.
 //    VoiceCapable                0
-      DataCapable                 0
+      DataCapable                 1
 //    SmsOverCSCapable            0
 //    SmsOverPSCapable            0
 //    StkCapable                  0
@@ -249,7 +245,8 @@ Group Logging
 // Silo Configuration - A bitmask of the silos assigned for each channel.
 // Setting the appropriate bit in the mask adds the silo to the channel:
 //      bit 11: Common silo       1000 0000 0000
-//      bit 8-10: Reserved for new silos
+//      bit 9-10: Reserved for new silos
+//      bit 8: rfcoexistence silo 0001 0000 0000
 //      bit 7: IMS silo          1000 0000
 //      bit 6: Misc silo         0100 0000
 //      bit 5: Phonebook silo    0010 0000

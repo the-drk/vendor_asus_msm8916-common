@@ -41,7 +41,7 @@
 					filename="2048_2g_multislot_power.tlv"
 				/>
 				<tlv_info
-					filename="2048_out_of_band_on.tlv"
+					filename="2048_hsic_out_of_band_on.tlv"
 				/>
 			</tlvs_info>
 			&channels_default;

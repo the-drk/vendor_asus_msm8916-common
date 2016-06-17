@@ -96,8 +96,13 @@ Group RILSettings
 
 // Pin Caching mode
 // 1 - Pin caching in file system
+//     If 'file system' mode is used, you need to set PinCacheFileFS in order to provide
+//     the path used
 // 2 - Pin caching in NVRAM
-    PinCacheMode 2
+    PinCacheMode 1
+
+// Pin Caching FS path
+    PinCacheFileFS /config/telephony/dump
 
 // Settable values for the InitCmds group include:
 //   PreInitCmds,  PreReinitCmds,  PreUnlockCmds,  PreSmsInitCmds
@@ -128,12 +133,6 @@ Group Modem
 // Enable modem power off in flightmode
 // If set to 1 RRIL will request to power off the modem once flightmode is enabled
     EnableModemOffInFlightMode 1
-
-// EnableCellInfo - Enable support for reporting of serving and neighbour cell info
-//      If set to "1", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is supported
-//      If set to "0", RIL_REQUEST_GET_NEIGHBORING_CELL_IDS request is not supported
-//      If missing, the default value will be "1" and cell info will be supported.
-    EnableCellInfo              1
 
 // EnableCipheringInd - Enable support for reporting of ciphering indication
 //      If set to "1", Ciphering Indication is supported

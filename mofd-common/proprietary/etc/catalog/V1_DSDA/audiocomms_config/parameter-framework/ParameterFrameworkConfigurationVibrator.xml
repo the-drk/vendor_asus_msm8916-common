@@ -2,7 +2,7 @@
 <ParameterFrameworkConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Schemas/ParameterFrameworkConfiguration.xsd"
     SystemClassName="Misc" ServerPort="5003" TuningAllowed="false">
     <SubsystemPlugins>
-        <Location Folder="/system/lib/parameter-framework-plugins/Fs">
+        <Location Folder="">
             <Plugin Name="libfs-subsystem.so"/>
         </Location>
     </SubsystemPlugins>

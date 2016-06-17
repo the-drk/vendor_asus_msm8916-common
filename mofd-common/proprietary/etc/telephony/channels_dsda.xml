@@ -22,6 +22,10 @@
 			<cops_commands device="![CDATA[/dev/gsmtty86]]"/>
 			<rfcoexistence device="![CDATA[/dev/gsmtty87]]"/>
 			<sms device="![CDATA[/dev/gsmtty89]]"/>
+			<packet_data_1 device="![CDATA[/dev/gsmtty67]]"/>
+			<packet_data_2 device="![CDATA[/dev/gsmtty68]]"/>
+			<packet_data_3 device="![CDATA[/dev/gsmtty79]]"/>
+			<packet_data_4 device="![CDATA[/dev/gsmtty80]]"/>
 		</rril>
 	</channels>
 </channels_info>

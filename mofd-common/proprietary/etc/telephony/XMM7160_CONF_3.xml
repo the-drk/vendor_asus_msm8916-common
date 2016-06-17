@@ -44,7 +44,7 @@
 					filename="1024_multislot_off.tlv"
 				/>
 				<tlv_info
-					filename="1024_out_of_band_on.tlv"
+					filename="1024_hsic_out_of_band_on.tlv"
 				/>
 				<tlv_info
 					filename="1024_rx_diversity.tlv"

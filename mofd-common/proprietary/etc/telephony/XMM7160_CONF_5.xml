@@ -26,6 +26,9 @@
 					filename="1024_7160_PF450CL_family.tlv"
 				/>
 				<tlv_info
+					filename="1024_csd_off.tlv"
+				/>
+				<tlv_info
 					filename="1024_7160_RF_band_settings.tlv"
 				/>
 				<tlv_info

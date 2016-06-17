@@ -16,17 +16,22 @@
 		<baseband>
 			<link_usb device="![CDATA[/dev/ttyACM0]]" pid="0x1451" vid="0x1519"/>
 		</baseband>
-		<power
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/autosuspend_enable]]"
-			on="1"
-			off="0"
-		/>
-		<link_ctrl
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/ssic_enable]]"
-			on="1"
-			off="0"
-			reset="1"
-		/>
+		<powers>
+			<power
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/autosuspend_enable]]"
+				on="1"
+				off="0"
+			/>
+		</powers>
+		<link_ctrls>
+			<link_ctrl
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/ssic_enable]]"
+				on="1"
+				off="0"
+				enable="1"
+				disable="0"
+			/>
+		</link_ctrls>
 	</modem_link>
 	<mdm_ctrl
 		path="/dev/mdm_ctrl0"
@@ -43,7 +48,7 @@
 	</modem_comm>
 	<modem_timings
 		ipc_ready="45"
-		cd_ipc_ready="10"
+		cd_ipc_ready="30"
 		mdm_flash="60"
 		fmmo="30"
 	/>
@@ -68,16 +73,26 @@
 		<link>
 			<link_usb device="![CDATA[/dev/ttyACM0]]" pid="0xF000" vid="0x1519"/>
 		</link>
-		<power
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/autosuspend_enable]]"
-			on="1"
-			off="0"
-		/>
-		<link_ctrl
-			device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/ssic_enable]]"
-			on="1"
-			off="0"
-			reset="1"
-		/>
+		<powers>
+			<power
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/autosuspend_enable]]"
+				on="1"
+				off="0"
+			/>
+		</powers>
+		<link_ctrls>
+			<link_ctrl
+				device="![CDATA[/sys/devices/pci0000:00/0000:00:1b.0/ssic/ssic_enable]]"
+				on="1"
+				off="0"
+				enable="1"
+				disable="0"
+			/>
+		</link_ctrls>
 	</mcdr>
+	<mup>
+		<general
+			folder="/logs"
+		/>
+	</mup>
 </mmgr_config>

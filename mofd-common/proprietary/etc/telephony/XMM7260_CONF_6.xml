@@ -19,7 +19,7 @@
 			/>
 			<modules
 				mmgr_xml="mmgr_7260_conf_7.xml"
-				rril_txt="rril_7260_conf_1.txt"
+				rril_txt="rril_7260_conf_2.txt"
 			/>
 			<tlvs_info>
 				<tlv_info
@@ -36,9 +36,6 @@
 				/>
 				<tlv_info
 					filename="2048_2g_multislot_power.tlv"
-				/>
-				<tlv_info
-					filename="2048_out_of_band_on.tlv"
 				/>
 			</tlvs_info>
 			&channels_default;

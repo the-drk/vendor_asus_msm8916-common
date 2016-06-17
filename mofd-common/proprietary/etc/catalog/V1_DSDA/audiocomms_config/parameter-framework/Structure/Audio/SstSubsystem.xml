@@ -142,6 +142,7 @@
         </ComponentType>
 
         <ComponentType Name="TxSpeechPipe">
+            <Component Name="lock" Type="VoiceProcessingLock" Mapping="Amend1:speech_out,Amend2:ul_module,Amend3:0"/>
             <Component Name="in_gain" Type="Gain" Mapping="Amend1:txspeech_in,Amend2:gain,Amend3:0"/>
             <Component Name="ul_gain" Type="Gain" Mapping="Amend1:speech_out,Amend2:gain,Amend3:1"/>
             <ParameterBlock Name="equalizer">
@@ -161,10 +162,10 @@
             <Component Name="cni" Type="ComfortNoiseInjector_V1_2" Mapping="Amend1:speech_out,Amend2:ul_module,Amend3:0"/>
             <Component Name="drp" Type="DynamicRangeProcessor" Mapping="Amend1:speech_out,Amend2:ul_module,Amend3:0"/>
             <Component Name="out_gain" Type="Gain" Mapping="Amend1:speech_out,Amend2:gain,Amend3:0"/>
-            <Component Name="lock" Type="VoiceProcessingLock" Mapping="Amend1:speech_out,Amend2:ul_module,Amend3:0"/>
         </ComponentType>
 
         <ComponentType Name="RxSpeechPipe">
+            <Component Name="lock" Type="VoiceProcessingLock" Mapping="Amend1:speech_in,Amend2:dl_module,Amend3:0"/>
             <Component Name="in_gain" Type="Gain" Mapping="Amend1:speech_in,Amend2:gain,Amend3:0"/>
             <Component Name="nr" Type="NoiseReduction" Mapping="Amend1:speech_in,Amend2:dl_module,Amend3:0"/>
             <Component Name="tnr" Type="TrafficNoiseReduction" Mapping="Amend1:speech_in,Amend2:dl_module,Amend3:0"/>
@@ -179,7 +180,6 @@
                 <Component Name="iir" Type="FbaIir" Mapping="Amend1:speech_in,Amend2:dl_module,Amend3:0,Amend4:iir"/>
             </ParameterBlock>
             <Component Name="out_gain" Type="VoiceVolume" Mapping="Amend1:rxspeech_out,Amend2:gain,Amend3:0"/>
-            <Component Name="lock" Type="VoiceProcessingLock" Mapping="Amend1:speech_in,Amend2:dl_module,Amend3:0"/>
         </ComponentType>
 
         <ComponentType Name="TonePipe" Extends="GainPipe">
@@ -193,10 +193,13 @@
 
         <!-- Pipe instances definitions -->
         <ComponentType Name="Pipes">
+            <Component Name="tx_speech_loop" Type="TxSpeechPipe"/>
+            <Component Name="rx_speech_loop" Type="RxSpeechPipe"/>
             <Component Name="pcm_compressed" Type="GainPipe" Mapping="Amend1:pcm0_in"/>
             <Component Name="pcm_regular" Type="GainPipe" Mapping="Amend1:pcm1_in"/>
             <Component Name="pcm_deep" Type="GainPipe" Mapping="Amend1:pcm2_in"/>
-            <Component Name="pcm_low_latency" Type="GainPipe" Mapping="Amend1:low_pcm0_in"/>
+            <Component Name="pcm_low_latency_in" Type="GainPipe" Mapping="Amend1:low_pcm0_in"/>
+            <Component Name="pcm_low_latency_out" Type="GainPipe" Mapping="Amend1:low_pcm0_out"/>
             <ParameterBlock Name="pcm_record">
                 <Component Name="mic_1_2" Type="EqPipe" Mapping="Amend1:pcm1_out"/>
                 <Component Name="mic_3_4" Type="EqPipe" Mapping="Amend1:pcm3_out"/>
@@ -230,8 +233,6 @@
             <Component Name="hf_sns3" Type="EqPipeHfSns3"/>
             <Component Name="hf_sns4" Type="EqPipeHfSns4"/>
             <Component Name="hf_ref" Type="GainPipe" Mapping="Amend1:hf_out"/>
-            <Component Name="tx_speech_loop" Type="TxSpeechPipe"/>
-            <Component Name="rx_speech_loop" Type="RxSpeechPipe"/>
             <Component Name="sidetone" Type="IirPipe" Mapping="Amend1:sidetone_in"/>
             <Component Name="media_loop1" Type="MediaEqPipe" Mapping="Amend1:media_loop1_out"/>
             <Component Name="media_loop2" Type="MediaEqPipe" Mapping="Amend1:media_loop2_out"/>
@@ -288,6 +289,7 @@
             <Component Name="pcm3" Type="MainMixerOut" Mapping="Amend1:pcm3_out"/>
             <Component Name="modem" Type="MainMixerOut" Mapping="Amend1:modem_out"/>
             <Component Name="voip" Type="MainMixerOut" Mapping="Amend1:voip_out"/>
+            <Component Name="low_latency" Type="MainMixerOut" Mapping="Amend1:low_pcm0_out"/>
             <Component Name="aware" Type="MainMixerOut" Mapping="Amend1:aware_out"/>
             <Component Name="vad" Type="MainMixerOut" Mapping="Amend1:vad_out"
                        Description="Voice Auto Detection mixer"/>

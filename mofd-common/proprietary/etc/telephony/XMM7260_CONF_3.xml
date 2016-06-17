@@ -19,7 +19,7 @@
 			/>
 			<modules
 				mmgr_xml="mmgr_7260_conf_6.xml"
-				rril_txt="rril_7260_conf_1.txt"
+				rril_txt="rril_7260_conf_6.txt"
 			/>
 			<tlvs_info>
 				<tlv_info
@@ -32,16 +32,19 @@
 					filename="2048_cat4.tlv"
 				/>
 				<tlv_info
-					filename="2048_rx_diversity.tlv"
-				/>
-				<tlv_info
 					filename="2048_csd_off.tlv"
 				/>
 				<tlv_info
 					filename="2048_2g_multislot_power.tlv"
 				/>
 				<tlv_info
-					filename="2048_out_of_band_on.tlv"
+					filename="2048_4g_multislot_power_s45.tlv"
+				/>
+				<tlv_info
+					filename="2048_hsic_out_of_band_on.tlv"
+				/>
+				<tlv_info
+					filename="2048_band_config_update_NA_EU.tlv"
 				/>
 			</tlvs_info>
 			&channels_default;

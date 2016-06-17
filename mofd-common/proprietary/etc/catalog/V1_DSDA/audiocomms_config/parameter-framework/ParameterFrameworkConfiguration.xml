@@ -11,7 +11,7 @@
             <Plugin Name="libremoteparameter-subsystem.so"/>
             <Plugin Name="libprobe-subsystem.so"/>
         </Location>
-        <Location Folder="/system/lib/parameter-framework-plugins/Fs">
+        <Location Folder="">
             <Plugin Name="libfs-subsystem.so"/>
         </Location>
         <Location Folder="/system/lib/parameter-framework-plugins/System">

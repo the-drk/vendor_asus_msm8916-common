@@ -1,0 +1,3 @@
+# software config - informative only
+
+persist.sys.telephony.off=1
