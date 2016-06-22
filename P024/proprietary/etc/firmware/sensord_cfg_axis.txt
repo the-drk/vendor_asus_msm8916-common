@@ -1,0 +1,2 @@
+place_a=5
+place_m=5
