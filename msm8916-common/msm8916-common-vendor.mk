@@ -21,6 +21,11 @@ PRODUCT_PACKAGES += \
     dpmserviceapp
 
 PRODUCT_PACKAGES += \
+    ims \
+    imssettings \
+    imscmlibrary
+
+PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
