@@ -416,7 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/P024/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/asus/P024/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/asus/P024/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/asus/P024/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/asus/P024/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/asus/P024/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/asus/P024/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
