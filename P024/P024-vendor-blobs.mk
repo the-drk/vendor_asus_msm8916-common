@@ -467,7 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/P024/proprietary/etc/firmware/wcnss_8916.b10:system/etc/firmware/wcnss_8916.b10 \
     vendor/asus/P024/proprietary/etc/firmware/wcnss_8916.b11:system/etc/firmware/wcnss_8916.b11 \
     vendor/asus/P024/proprietary/etc/firmware/wcnss_8916.mdt:system/etc/firmware/wcnss_8916.mdt \
-    vendor/asus/P024/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/asus/P024/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/asus/P024/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/asus/P024/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
