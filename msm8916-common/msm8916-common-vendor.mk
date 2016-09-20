@@ -166,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/msm8916-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/msm8916-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
-    vendor/asus/msm8916-common/proprietary/lib/soundfx/libicepower.so:system/lib/soundfx/libicepower.so \
     vendor/asus/msm8916-common/proprietary/lib/style.cng:system/lib/style.cng \
     vendor/asus/msm8916-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/asus/msm8916-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
