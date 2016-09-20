@@ -18,4 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0563_Asus_ZE551ML.hcd \
     vendor/asus/Z00A/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0610_Asus_ZX551ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0610_Asus_ZX551ML.hcd \
     vendor/asus/Z00A/proprietary/lib/hw/camera.vendor.mofd_v1.so:system/lib/hw/camera.vendor.mofd_v1.so \
+    vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
+    vendor/asus/Z00A/proprietary/etc/firmware/FW_INFO.bin:system/etc/firmware/FW_INFO.bin \
+    vendor/asus/Z00A/proprietary/etc/firmware/M10MO_fw.bin:system/etc/firmware/M10MO_fw.bin \
     vendor/asus/Z00A/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd

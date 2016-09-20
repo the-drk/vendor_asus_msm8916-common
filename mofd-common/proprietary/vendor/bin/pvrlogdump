@@ -109,6 +109,10 @@ perform_check() {
     if [ -d $DEBUGFS_PATH ]; then
         echo "found"
     else
+        # because there is no debugfs dump firmware log to dmesg buffer
+        if command pvrdebug >/dev/null 2>&1; then
+            if [ "$LOADED" = "true" ]; then pvrdebug -dd >/dev/null 2>&1; fi
+        fi
         echo "not found"
     fi
 
@@ -208,11 +212,6 @@ dump_dmesg() {
     echo "===== Dumping dmesg ================================================="
     echo ""
 
-    # even if debugfs exists dump firmware log to dmesg because
-    # there may be some additional information that are not present in debugfs
-    if command pvrdebug >/dev/null 2>&1; then
-        if [ "$LOADED" = "true" ]; then pvrdebug -dd >/dev/null 2>&1; fi
-    fi
     dmesg
 }
 

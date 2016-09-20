@@ -204,9 +204,33 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
     vendor/asus/mofd-common/proprietary/bin/bd_prov:system/bin/bd_prov \
     vendor/asus/mofd-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00gc2235.aiqb:system/etc/atomisp/00gc2235.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx134.aiqb:system/etc/atomisp/00imx134.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x2-0x1.aiqb:system/etc/atomisp/00imx135-0-0x2-0x1.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x4-0.aiqb:system/etc/atomisp/00imx135-0-0x4-0.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x8-0.aiqb:system/etc/atomisp/00imx135-0-0x8-0.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x8-0x1.aiqb:system/etc/atomisp/00imx135-0-0x8-0x1.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x8-0x2.aiqb:system/etc/atomisp/00imx135-0-0x8-0x2.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x8-0x5.aiqb:system/etc/atomisp/00imx135-0-0x8-0x5.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx175.aiqb:system/etc/atomisp/00imx175.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00imx219.aiqb:system/etc/atomisp/00imx219.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00m10mo-0-0x8-0.aiqb:system/etc/atomisp/00m10mo-0-0x8-0.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00mt9e013.aiqb:system/etc/atomisp/00mt9e013.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00ov13850.aiqb:system/etc/atomisp/00ov13850.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00ov5693.aiqb:system/etc/atomisp/00ov5693.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00ov8830-0-0x2-0.aiqb:system/etc/atomisp/00ov8830-0-0x2-0.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/00ov8858.aiqb:system/etc/atomisp/00ov8858.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00t4k37.aiqb:system/etc/atomisp/00t4k37.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01gc0339.aiqb:system/etc/atomisp/01gc0339.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01imx132.aiqb:system/etc/atomisp/01imx132.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01imx208.aiqb:system/etc/atomisp/01imx208.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01mt9m114.aiqb:system/etc/atomisp/01mt9m114.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01ov2722.aiqb:system/etc/atomisp/01ov2722.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/01ov5670.aiqb:system/etc/atomisp/01ov5670.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01ov680.aiqb:system/etc/atomisp/01ov680.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01ov9724.aiqb:system/etc/atomisp/01ov9724.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01ov9760.aiqb:system/etc/atomisp/01ov9760.aiqb \
+    vendor/asus/mofd-common/proprietary/etc/atomisp/01s5k6b2yx.aiqb:system/etc/atomisp/01s5k6b2yx.aiqb \
     vendor/asus/mofd-common/proprietary/etc/camera3_profiles.xml:system/etc/camera3_profiles.xml \
     vendor/asus/mofd-common/proprietary/etc/camera_profiles.xml:system/etc/camera_profiles.xml \
     vendor/asus/mofd-common/proprietary/etc/cms_device_config.xml:system/etc/cms_device_config.xml \
@@ -233,8 +257,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libarcsoftHDR_3DNR.so:system/lib/libarcsoftHDR_3DNR.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftHDR.so:system/lib/libArcsoftHDR.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftNightHawk.so:system/lib/libArcsoftNightHawk.so \
-    vendor/asus/mofd-common/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/asus/mofd-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/mofd-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/asus/mofd-common/proprietary/lib/libArcsoftStabilizer.so:system/lib/libArcsoftStabilizer.so \
     vendor/asus/mofd-common/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
     vendor/asus/mofd-common/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
@@ -248,6 +272,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libia_emd_decoder.so:system/lib/libia_emd_decoder.so \
     vendor/asus/mofd-common/proprietary/lib/libia_exc.so:system/lib/libia_exc.so \
     vendor/asus/mofd-common/proprietary/lib/libia_face.so:system/lib/libia_face.so \
+    vendor/asus/mofd-common/proprietary/lib/libia_isp_1_5.so:system/lib/libia_isp_1_5.so \
     vendor/asus/mofd-common/proprietary/lib/libia_isp_2_2.so:system/lib/libia_isp_2_2.so \
     vendor/asus/mofd-common/proprietary/lib/libia_log.so:system/lib/libia_log.so \
     vendor/asus/mofd-common/proprietary/lib/libia_mkn.so:system/lib/libia_mkn.so \
@@ -267,63 +292,44 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/mofd-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
     vendor/asus/mofd-common/proprietary/media/cameraConfig/style.cng:system/media/cameraConfig/style.cng \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x2-0x1.drvb:system/vendor/firmware/00imx135-0-0x2-0x1.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x4-0.drvb:system/vendor/firmware/00imx135-0-0x4-0.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x8-0.drvb:system/vendor/firmware/00imx135-0-0x8-0.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x8-0x1.drvb:system/vendor/firmware/00imx135-0-0x8-0x1.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x8-0x2.drvb:system/vendor/firmware/00imx135-0-0x8-0x2.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00imx135-0-0x8-0x5.drvb:system/vendor/firmware/00imx135-0-0x8-0x5.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/00ov8830-0-0x2-0.drvb:system/vendor/firmware/00ov8830-0-0x2-0.drvb \
+    vendor/asus/mofd-common/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
     vendor/asus/mofd-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/asus/mofd-common/proprietary/lib/hw/keystore.moorefield.so:system/lib/hw/keystore.moorefield.so \
     vendor/asus/mofd-common/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/asus/mofd-common/proprietary/vendor/bin/bcc.moorefield:system/vendor/bin/bcc.moorefield \
-    vendor/asus/mofd-common/proprietary/vendor/bin/framebuffer_test:system/vendor/bin/framebuffer_test \
+    vendor/asus/mofd-common/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
     vendor/asus/mofd-common/proprietary/vendor/bin/hwperfbin2jsont:system/vendor/bin/hwperfbin2jsont \
     vendor/asus/mofd-common/proprietary/vendor/bin/pvrdebug:system/vendor/bin/pvrdebug \
     vendor/asus/mofd-common/proprietary/vendor/bin/pvrhwperf:system/vendor/bin/pvrhwperf \
     vendor/asus/mofd-common/proprietary/vendor/bin/pvrlogdump:system/vendor/bin/pvrlogdump \
     vendor/asus/mofd-common/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/asus/mofd-common/proprietary/vendor/bin/pvrtld:system/vendor/bin/pvrtld \
-    vendor/asus/mofd-common/proprietary/vendor/lib/__ocl_svml_n8.so:system/vendor/lib/__ocl_svml_n8.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/clbltfnn8.rtl:system/vendor/lib/clbltfnn8.rtl \
-    vendor/asus/mofd-common/proprietary/vendor/lib/clbltfnn8_img_cbk.o:system/vendor/lib/clbltfnn8_img_cbk.o \
-    vendor/asus/mofd-common/proprietary/vendor/lib/clbltfnn8_img_cbk.rtl:system/vendor/lib/clbltfnn8_img_cbk.rtl \
-    vendor/asus/mofd-common/proprietary/vendor/lib/clbltfnshared.rtl:system/vendor/lib/clbltfnshared.rtl \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libbcc.moorefield.so:system/vendor/lib/libbcc.moorefield.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libbcinfo.moorefield.so:system/vendor/lib/libbcinfo.moorefield.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libcl_logger.so:system/vendor/lib/libcl_logger.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libclang_compiler.so:system/vendor/lib/libclang_compiler.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libcommon_clang.so:system/vendor/lib/libcommon_clang.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libcptcompiler.so:system/vendor/lib/libcptcompiler.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libcpu_device.so:system/vendor/lib/libcpu_device.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libcreatesurface.so:system/vendor/lib/libcreatesurface.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libgnustl_shared.so:system/vendor/lib/libgnustl_shared.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libintelocl.so:system/vendor/lib/libintelocl.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libLLVM.moorefield.so:system/vendor/lib/libLLVM.moorefield.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libOclCpuBackEnd.so:system/vendor/lib/libOclCpuBackEnd.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libOpenCL.so.1.2:system/vendor/lib/libOpenCL.so.1.2 \
+    vendor/asus/mofd-common/proprietary/vendor/lib/liboclcompiler.so:system/vendor/lib/liboclcompiler.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libpvrcpt.so:system/vendor/lib/libpvrcpt.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libPVRRS.dbg:system/vendor/lib/libPVRRS.dbg \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libPVRRS.sha1.dbg:system/vendor/lib/libPVRRS.sha1.dbg \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libPVRRS.sha1.so:system/vendor/lib/libPVRRS.sha1.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libPVRRS.so:system/vendor/lib/libPVRRS.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/libpvr2d.dbg:system/vendor/lib/libpvr2d.dbg \
+    vendor/asus/mofd-common/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/asus/mofd-common/proprietary/vendor/lib/libPVROCL.so:system/vendor/lib/libPVROCL.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/librsccompiler.so:system/vendor/lib/librsccompiler.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/librscruntime.bc:system/vendor/lib/librscruntime.bc \
     vendor/asus/mofd-common/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libtask_executor.so:system/vendor/lib/libtask_executor.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libtbb.so:system/vendor/lib/libtbb.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libtbbmalloc.so:system/vendor/lib/libtbbmalloc.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/libufwriter.dbg:system/vendor/lib/libufwriter.dbg \
     vendor/asus/mofd-common/proprietary/vendor/lib/libufwriter.so:system/vendor/lib/libufwriter.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/opencl_.pch:system/vendor/lib/opencl_.pch \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libEGL_POWERVR_ROGUE.so:system/vendor/lib/egl/libEGL_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so:system/vendor/lib/egl/libGLESv2_POWERVR_ROGUE.so \
     vendor/asus/mofd-common/proprietary/vendor/lib/hw/gralloc.moorefield.so:system/vendor/lib/hw/gralloc.moorefield.so \
-    vendor/asus/mofd-common/proprietary/vendor/lib/hw/memtrack.moorefield.so:system/vendor/lib/hw/memtrack.moorefield.so \
     vendor/asus/mofd-common/proprietary/etc/firmware/if.bin:system/etc/firmware/if.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_gff.img:system/etc/firmware/s3202_gff.img \
     vendor/asus/mofd-common/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
@@ -344,13 +350,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.prod:system/etc/firmware/vsp.bin.prod \
     vendor/asus/mofd-common/proprietary/etc/firmware/vsp.bin.verf:system/etc/firmware/vsp.bin.verf \
     vendor/asus/mofd-common/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
+    vendor/asus/mofd-common/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
     vendor/asus/mofd-common/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
     vendor/asus/mofd-common/proprietary/lib/libmfx_omx_components_sw.so:system/lib/libmfx_omx_components_sw.so \
     vendor/asus/mofd-common/proprietary/lib/libmfx_omx_core.so:system/lib/libmfx_omx_core.so \
     vendor/asus/mofd-common/proprietary/lib/libmfxsw32.so:system/lib/libmfxsw32.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_h264secure.so:system/lib/libmixvbp_h264secure.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_h264.so:system/lib/libmixvbp_h264.so \
-    vendor/asus/mofd-common/proprietary/lib/libmixvbp_mpeg2.so:system/lib/libmixvbp_mpeg2.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_mpeg4.so:system/lib/libmixvbp_mpeg4.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/mofd-common/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
@@ -359,6 +365,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
+    vendor/asus/mofd-common/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
     vendor/asus/mofd-common/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/mofd-common/proprietary/bin/mmgr_am.sh:system/bin/mmgr_am.sh \
     vendor/asus/mofd-common/proprietary/bin/nvm_server:system/bin/nvm_server \
