@@ -5239,51 +5239,51 @@
                   <IntegerParameter Name="reserved1">0</IntegerParameter>
                   <ParameterBlock Name="section">
                     <ParameterBlock Name="0">
-                      <FixedPointParameter Name="a2">-0.29667162895202636718750</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.49396347999572753906250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.19233274459838867187500</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.24788987636566162109375</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.28968918323516845703125</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.29696381092071533203125</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.01117420196533203125000</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.23495399951934814453125</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.00795745849609375000000</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.39723455905914306640625</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="1">
-                      <FixedPointParameter Name="a2">0.08141386508941650390625</FixedPointParameter>
-                      <FixedPointParameter Name="a1">-0.33718085289001464843750</FixedPointParameter>
-                      <FixedPointParameter Name="b2">-0.34865772724151611328125</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.01199626922607421875000</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.46190392971038818359375</FixedPointParameter>
+                      <FixedPointParameter Name="a2">0.37973582744598388671875</FixedPointParameter>
+                      <FixedPointParameter Name="a1">-0.00847339630126953125000</FixedPointParameter>
+                      <FixedPointParameter Name="b2">-0.38735949993133544921875</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.00321888923645019531250</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.49250829219818115234375</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="2">
-                      <FixedPointParameter Name="a2">-0.21568691730499267578125</FixedPointParameter>
-                      <FixedPointParameter Name="a1">-0.37651574611663818359375</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.01894998550415039062500</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.22443234920501708984375</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.31983828544616699218750</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.19523918628692626953125</FixedPointParameter>
+                      <FixedPointParameter Name="a1">-0.39129889011383056640625</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.16680264472961425781250</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.37885737419128417968750</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.46964406967163085937500</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="3">
-                      <FixedPointParameter Name="a2">-0.34651875495910644531250</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.64664077758789062500000</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.28019797801971435546875</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.60171663761138916015625</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.60131418704986572265625</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.26984882354736328125000</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.21384763717651367187500</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.12784314155578613281250</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.26220881938934326171875</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.29081320762634277343750</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="4">
-                      <FixedPointParameter Name="a2">-0.30548989772796630859375</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.78058171272277832031250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.30476093292236328125000</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.76517772674560546875000</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.52399432659149169921875</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.35032594203948974609375</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.63145875930786132812500</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.47424805164337158203125</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.65592467784881591796875</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.62634932994842529296875</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="5">
-                      <FixedPointParameter Name="a2">-0.29514336585998535156250</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.72473168373107910156250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.04886138439178466796875</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.09213113784790039062500</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.12803590297698974609375</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.10874795913696289062500</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.46981132030487060546875</FixedPointParameter>
+                      <FixedPointParameter Name="b2">-0.13882911205291748046875</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.06058180332183837890625</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.42650580406188964843750</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                   </ParameterBlock>
@@ -5293,51 +5293,51 @@
                   <IntegerParameter Name="reserved1">0</IntegerParameter>
                   <ParameterBlock Name="section">
                     <ParameterBlock Name="0">
-                      <FixedPointParameter Name="a2">-0.29667162895202636718750</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.49396347999572753906250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.19233274459838867187500</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.24788987636566162109375</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.28968918323516845703125</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.29696381092071533203125</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.01117420196533203125000</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.23495399951934814453125</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.00795745849609375000000</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.39723455905914306640625</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="1">
-                      <FixedPointParameter Name="a2">0.08141386508941650390625</FixedPointParameter>
-                      <FixedPointParameter Name="a1">-0.33718085289001464843750</FixedPointParameter>
-                      <FixedPointParameter Name="b2">-0.34865772724151611328125</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.01199626922607421875000</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.46190392971038818359375</FixedPointParameter>
+                      <FixedPointParameter Name="a2">0.37973582744598388671875</FixedPointParameter>
+                      <FixedPointParameter Name="a1">-0.00847339630126953125000</FixedPointParameter>
+                      <FixedPointParameter Name="b2">-0.38735949993133544921875</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.00321888923645019531250</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.49250829219818115234375</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="2">
-                      <FixedPointParameter Name="a2">-0.21568691730499267578125</FixedPointParameter>
-                      <FixedPointParameter Name="a1">-0.37651574611663818359375</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.01894998550415039062500</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.22443234920501708984375</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.31983828544616699218750</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.19523918628692626953125</FixedPointParameter>
+                      <FixedPointParameter Name="a1">-0.39129889011383056640625</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.16680264472961425781250</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.37885737419128417968750</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.46964406967163085937500</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="3">
-                      <FixedPointParameter Name="a2">-0.34651875495910644531250</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.64664077758789062500000</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.28019797801971435546875</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.60171663761138916015625</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.60131418704986572265625</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.26984882354736328125000</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.21384763717651367187500</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.12784314155578613281250</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.26220881938934326171875</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.29081320762634277343750</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="4">
-                      <FixedPointParameter Name="a2">-0.30548989772796630859375</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.78058171272277832031250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.30476093292236328125000</FixedPointParameter>
-                      <FixedPointParameter Name="b1">-0.76517772674560546875000</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.52399432659149169921875</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.35032594203948974609375</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.63145875930786132812500</FixedPointParameter>
+                      <FixedPointParameter Name="b2">0.47424805164337158203125</FixedPointParameter>
+                      <FixedPointParameter Name="b1">-0.65592467784881591796875</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.62634932994842529296875</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                     <ParameterBlock Name="5">
-                      <FixedPointParameter Name="a2">-0.29514336585998535156250</FixedPointParameter>
-                      <FixedPointParameter Name="a1">0.72473168373107910156250</FixedPointParameter>
-                      <FixedPointParameter Name="b2">0.04886138439178466796875</FixedPointParameter>
-                      <FixedPointParameter Name="b1">0.09213113784790039062500</FixedPointParameter>
-                      <FixedPointParameter Name="b0">0.12803590297698974609375</FixedPointParameter>
+                      <FixedPointParameter Name="a2">-0.10874795913696289062500</FixedPointParameter>
+                      <FixedPointParameter Name="a1">0.46981132030487060546875</FixedPointParameter>
+                      <FixedPointParameter Name="b2">-0.13882911205291748046875</FixedPointParameter>
+                      <FixedPointParameter Name="b1">0.06058180332183837890625</FixedPointParameter>
+                      <FixedPointParameter Name="b0">0.42650580406188964843750</FixedPointParameter>
                       <IntegerParameter Name="gain">256</IntegerParameter>
                     </ParameterBlock>
                   </ParameterBlock>
