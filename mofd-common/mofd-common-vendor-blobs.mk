@@ -30,8 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv2.so:system/lib/arm/nb/libGLESv2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv3.so:system/lib/arm/nb/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libgui.so:system/lib/arm/nb/libgui.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/nb/libhardware.so:system/lib/arm/nb/libhardware.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/nb/libhardware_legacy.so:system/lib/arm/nb/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libhwui.so:system/lib/arm/nb/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicui18n.so:system/lib/arm/nb/libicui18n.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicuuc.so:system/lib/arm/nb/libicuuc.so \
@@ -64,10 +62,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libbase.so:system/lib/arm/libbase.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcc.so:system/lib/arm/libbcc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcinfo.so:system/lib/arm/libbcinfo.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libbinary_parse.so:system/lib/arm/libbinary_parse.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbinder.so:system/lib/arm/libbinder.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libblas.so:system/lib/arm/libblas.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcamera_client.so:system/lib/arm/libcamera_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcamera_metadata.so:system/lib/arm/libcamera_metadata.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libcamera2ndk.so:system/lib/arm/libcamera2ndk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcommon_time_client.so:system/lib/arm/libcommon_time_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcompiler_rt.so:system/lib/arm/libcompiler_rt.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcrypto.so:system/lib/arm/libcrypto.so \
@@ -75,10 +75,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libc++.so:system/lib/arm/libc++.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libcutils.so:system/lib/arm/libcutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libdl.so:system/lib/arm/libdl.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libdng_sdk.so:system/lib/arm/libdng_sdk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libdrmframework.so:system/lib/arm/libdrmframework.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libeffects.so:system/lib/arm/libeffects.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libEGL.so:system/lib/arm/libEGL.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libemoji.so:system/lib/arm/libemoji.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libETC1.so:system/lib/arm/libETC1.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libexpat.so:system/lib/arm/libexpat.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libFFTEm.so:system/lib/arm/libFFTEm.so \
@@ -86,17 +86,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libfilterpack_imageproc.so:system/lib/arm/libfilterpack_imageproc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libft2.so:system/lib/arm/libft2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libgabi++.so:system/lib/arm/libgabi++.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libGLES_trace.so:system/lib/arm/libGLES_trace.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv1_CM.so:system/lib/arm/libGLESv1_CM.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv2.so:system/lib/arm/libGLESv2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv3.so:system/lib/arm/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libgui.so:system/lib/arm/libgui.so \
-    vendor/asus/mofd-common/proprietary/lib/arm/libhardware_legacy.so:system/lib/arm/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhardware.so:system/lib/arm/libhardware.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libharfbuzz_ng.so:system/lib/arm/libharfbuzz_ng.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhwui.so:system/lib/arm/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libicui18n.so:system/lib/arm/libicui18n.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libicuuc.so:system/lib/arm/libicuuc.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libimage_type_recognition.so:system/lib/arm/libimage_type_recognition.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libimg_utils.so:system/lib/arm/libimg_utils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libinputflinger.so:system/lib/arm/libinputflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libinput.so:system/lib/arm/libinput.so \
@@ -104,14 +103,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libjpeg.so:system/lib/arm/libjpeg.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libLLVM.so:system/lib/arm/libLLVM.so \
     vendor/asus/mofd-common/proprietary/lib/arm/liblog.so:system/lib/arm/liblog.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/liblz4.so:system/lib/arm/liblz4.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/liblzma.so:system/lib/arm/liblzma.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediandk.so:system/lib/arm/libmediandk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmedia.so:system/lib/arm/libmedia.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediautils.so:system/lib/arm/libmediautils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmemtrack.so:system/lib/arm/libmemtrack.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libmemunreachable.so:system/lib/arm/libmemunreachable.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libminikin.so:system/lib/arm/libminikin.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libm.so:system/lib/arm/libm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnativebridge.so:system/lib/arm/libnativebridge.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnativehelper.so:system/lib/arm/libnativehelper.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libnativeloader.so:system/lib/arm/libnativeloader.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnbaio.so:system/lib/arm/libnbaio.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnetd_client.so:system/lib/arm/libnetd_client.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libnetutils.so:system/lib/arm/libnetutils.so \
@@ -120,8 +123,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libOpenMAXAL.so:system/lib/arm/libOpenMAXAL.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libOpenSLES.so:system/lib/arm/libOpenSLES.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libopus.so:system/lib/arm/libopus.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libpackagelistparser.so:system/lib/arm/libpackagelistparser.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpcre.so:system/lib/arm/libpcre.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpdfium.so:system/lib/arm/libpdfium.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libpiex.so:system/lib/arm/libpiex.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpixelflinger.so:system/lib/arm/libpixelflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpng.so:system/lib/arm/libpng.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libpowermanager.so:system/lib/arm/libpowermanager.so \
@@ -154,12 +159,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libsurfaceflinger.so:system/lib/arm/libsurfaceflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libsync.so:system/lib/arm/libsync.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libsysutils.so:system/lib/arm/libsysutils.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libtiff_directory.so:system/lib/arm/libtiff_directory.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libui.so:system/lib/arm/libui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libunwind.so:system/lib/arm/libunwind.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libusbhost.so:system/lib/arm/libusbhost.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libutils.so:system/lib/arm/libutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libvorbisidec.so:system/lib/arm/libvorbisidec.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libvulkan.so:system/lib/arm/libvulkan.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libwebrtc_audio_coding.so:system/lib/arm/libwebrtc_audio_coding.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libwebviewchromium_plat_support.so:system/lib/arm/libwebviewchromium_plat_support.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
