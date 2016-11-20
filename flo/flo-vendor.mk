@@ -43,26 +43,27 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/flo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/asus/flo/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
+    vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+    vendor/asus/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/asus/flo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/asus/flo/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/flo/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/asus/flo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/asus/flo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_common.so:system/lib/libchromatix_ov5693_common.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
-    vendor/asus/flo/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/asus/flo/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/asus/flo/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/asus/flo/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -74,23 +75,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/asus/flo/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/asus/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
-    vendor/asus/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/asus/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/flo/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/asus/flo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/asus/flo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/flo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/asus/flo/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/asus/flo/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/asus/flo/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/asus/flo/proprietary/lib/libmmcamera_mi1040.so:system/lib/libmmcamera_mi1040.so \
     vendor/asus/flo/proprietary/lib/libmmcamera_ov5693.so:system/lib/libmmcamera_ov5693.so \
-    vendor/asus/flo/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/asus/flo/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/asus/flo/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/asus/flo/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/asus/flo/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/asus/flo/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/asus/flo/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/asus/flo/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/asus/flo/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/asus/flo/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
@@ -98,8 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/asus/flo/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/asus/flo/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/asus/flo/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/asus/flo/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/asus/flo/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/flo/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/flo/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
@@ -164,12 +158,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/asus/flo/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/asus/flo/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/asus/flo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/asus/flo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/flo/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/flo/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/asus/flo/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/asus/flo/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/asus/flo/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/asus/flo/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/asus/flo/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/flo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/flo/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/flo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -198,12 +195,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/asus/flo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/asus/flo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/asus/flo/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/flo/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/asus/flo/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/asus/flo/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/flo/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/asus/flo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/flo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/flo/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/asus/flo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/asus/flo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
