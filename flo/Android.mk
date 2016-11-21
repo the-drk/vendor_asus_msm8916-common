@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),flo)
+ifneq ($(filter flo deb,$(TARGET_DEVICE)),)
 
 endif
