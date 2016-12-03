@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
     vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
-    vendor/asus/mofd-common/proprietary/bin/customize_service:system/bin/customize_service \
     vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
     vendor/asus/mofd-common/proprietary/etc/permissions/asus.software.zenui.xml:system/etc/permissions/asus.software.zenui.xml \
     vendor/asus/mofd-common/proprietary/etc/firmware/dfw_sst.bin:system/etc/firmware/dfw_sst.bin \
@@ -355,7 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/mofd-common/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/mofd-common/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
-    vendor/asus/mofd-common/proprietary/bin/intel_prop:system/bin/intel_prop \
     vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.prod:system/etc/firmware/msvdx.bin.prod \
     vendor/asus/mofd-common/proprietary/etc/firmware/msvdx.bin.verf:system/etc/firmware/msvdx.bin.verf \
     vendor/asus/mofd-common/proprietary/etc/firmware/topaz.bin.prod:system/etc/firmware/topaz.bin.prod \
