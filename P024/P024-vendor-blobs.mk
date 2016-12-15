@@ -446,4 +446,4 @@ PRODUCT_COPY_FILES += \
     vendor/asus/P024/proprietary/etc/firmware/sensord_cfg_axis.txt:system/etc/firmware/sensord_cfg_axis.txt \
     vendor/asus/P024/proprietary/etc/firmware/touch_fw_0x550D.ekt:system/etc/firmware/touch_fw_0x550D.ekt
 
-$(call inherit-product, vendor/qcom/binaries/msm8916/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
