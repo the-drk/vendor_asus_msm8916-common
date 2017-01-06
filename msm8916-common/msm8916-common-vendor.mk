@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+#           (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,25 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/asus/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/msm8916-common/proprietary/bin/radish:system/bin/radish \
-    vendor/asus/msm8916-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/asus/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/msm8916-common/proprietary/bin/tfamode:system/bin/tfamode \
     vendor/asus/msm8916-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/asus/msm8916-common/proprietary/bin/vm_bms:system/bin/vm_bms \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Global_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Global_cal_ZD550KL.acdb \
@@ -69,20 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Hdmi_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Hdmi_cal_ZE600KL.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Headset_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Headset_cal_ZE600KL.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Speaker_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Speaker_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/asus/msm8916-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/asus/msm8916-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
