@@ -275,7 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
     vendor/asus/msm8916-common/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
     vendor/asus/msm8916-common/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
-    vendor/asus/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/asus/msm8916-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/asus/msm8916-common/proprietary/lib/libjpeggifcodec.so:system/lib/libjpeggifcodec.so \
     vendor/asus/msm8916-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
@@ -582,11 +581,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api \
     libmm-abl \
     libtime_genoff \
     TimeService \
-    shutdownlistener \
     qcrilmsgtunnel \
     ims \
     imssettings \
