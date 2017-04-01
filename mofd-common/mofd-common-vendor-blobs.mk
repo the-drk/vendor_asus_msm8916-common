@@ -807,13 +807,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_US_726x.tlv:system/vendor/firmware/telephony/ze550ml_US_726x.tlv \
     vendor/asus/mofd-common/proprietary/vendor/firmware/telephony/ze550ml_WW_726x.tlv:system/vendor/firmware/telephony/ze550ml_WW_726x.tlv \
     vendor/asus/mofd-common/proprietary/bin/sensorhubd:system/bin/sensorhubd \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002:system/etc/firmware/psh.bin.0000.0000.0008.0008.0000.0002 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0000 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0001.0001 \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001:system/etc/firmware/psh.bin.0000.0000.0008.0008.0002.0001 \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.ze550ml:system/etc/firmware/psh.bin.ze550ml \
-    vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.ze551ml:system/etc/firmware/psh.bin.ze551ml \
     vendor/asus/mofd-common/proprietary/etc/firmware/psh.bin.zx550ml:system/etc/firmware/psh.bin.zx550ml \
     vendor/asus/mofd-common/proprietary/lib/hw/sensors.mofd_v1.so:system/lib/hw/sensors.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libcontextarbitor.so:system/lib/libcontextarbitor.so \

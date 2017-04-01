@@ -21,4 +21,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00A/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
     vendor/asus/Z00A/proprietary/etc/firmware/FW_INFO.bin:system/etc/firmware/FW_INFO.bin \
     vendor/asus/Z00A/proprietary/etc/firmware/M10MO_fw.bin:system/etc/firmware/M10MO_fw.bin \
-    vendor/asus/Z00A/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd
+    vendor/asus/Z00A/proprietary/vendor/firmware/bcm2079x-a2_firmware.ncd:system/vendor/firmware/bcm2079x-a2_firmware.ncd \
+    vendor/asus/Z00A/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin

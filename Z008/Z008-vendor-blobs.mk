@@ -17,4 +17,5 @@
 PRODUCT_COPY_FILES += \
     vendor/asus/Z008/proprietary/etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd:system/etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd \
     vendor/asus/Z008/proprietary/lib/hw/camera.vendor.mofd_v1.so:system/lib/hw/camera.vendor.mofd_v1.so \
-    vendor/asus/Z008/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so
+    vendor/asus/Z008/proprietary/lib/hw/m10mo/camera.m10mo.so:system/lib/hw/m10mo/camera.m10mo.so \
+    vendor/asus/Z008/proprietary/etc/firmware/psh.bin:system/etc/firmware/psh.bin
