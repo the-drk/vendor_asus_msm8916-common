@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libaudioflinger.so:system/lib/arm/nb/libaudioflinger.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libbinder.so:system/lib/arm/nb/libbinder.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libcamera_client.so:system/lib/arm/nb/libcamera_client.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/nb/libcamera2ndk.so:system/lib/arm/nb/libcamera2ndk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libc.so:system/lib/arm/nb/libc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libcutils.so:system/lib/arm/nb/libcutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libdl.so:system/lib/arm/nb/libdl.so \
@@ -30,6 +31,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv2.so:system/lib/arm/nb/libGLESv2.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libGLESv3.so:system/lib/arm/nb/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libgui.so:system/lib/arm/nb/libgui.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/nb/libhardware.so:system/lib/arm/nb/libhardware.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/nb/libhardware_legacy.so:system/lib/arm/nb/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libhwui.so:system/lib/arm/nb/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicui18n.so:system/lib/arm/nb/libicui18n.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libicuuc.so:system/lib/arm/nb/libicuuc.so \
@@ -46,10 +49,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libsqlite.so:system/lib/arm/nb/libsqlite.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libstagefright.so:system/lib/arm/nb/libstagefright.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libsurfaceflinger.so:system/lib/arm/nb/libsurfaceflinger.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/nb/libtcb.so:system/lib/arm/nb/libtcb.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libui.so:system/lib/arm/nb/libui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libutils.so:system/lib/arm/nb/libutils.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/nb/libvulkan.so:system/lib/arm/nb/libvulkan.so \
     vendor/asus/mofd-common/proprietary/lib/arm/nb/libz.so:system/lib/arm/nb/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/cpuinfo:system/lib/arm/cpuinfo \
+    vendor/asus/mofd-common/proprietary/lib/arm/libaeabi_map.so:system/lib/arm/libaeabi_map.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libandroidfw.so:system/lib/arm/libandroidfw.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libandroid_runtime.so:system/lib/arm/libandroid_runtime.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libandroid.so:system/lib/arm/libandroid.so \
@@ -59,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libaudiospdif.so:system/lib/arm/libaudiospdif.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libaudioutils.so:system/lib/arm/libaudioutils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbacktrace.so:system/lib/arm/libbacktrace.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libbacktrace_offline.so:system/lib/arm/libbacktrace_offline.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbase.so:system/lib/arm/libbase.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcc.so:system/lib/arm/libbcc.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libbcinfo.so:system/lib/arm/libbcinfo.so \
@@ -91,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libGLESv3.so:system/lib/arm/libGLESv3.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libgui.so:system/lib/arm/libgui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhardware.so:system/lib/arm/libhardware.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libhardware_legacy.so:system/lib/arm/libhardware_legacy.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libharfbuzz_ng.so:system/lib/arm/libharfbuzz_ng.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libhwui.so:system/lib/arm/libhwui.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libicui18n.so:system/lib/arm/libicui18n.so \
@@ -107,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/liblzma.so:system/lib/arm/liblzma.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediandk.so:system/lib/arm/libmediandk.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmedia.so:system/lib/arm/libmedia.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libmediadrm.so:system/lib/arm/libmediadrm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmediautils.so:system/lib/arm/libmediautils.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmemtrack.so:system/lib/arm/libmemtrack.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libmemunreachable.so:system/lib/arm/libmemunreachable.so \
@@ -137,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libRScpp.so:system/lib/arm/libRScpp.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libRSCpuRef.so:system/lib/arm/libRSCpuRef.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libRSDriver.so:system/lib/arm/libRSDriver.so \
+    vendor/asus/mofd-common/proprietary/lib/arm/libRS_internal.so:system/lib/arm/libRS_internal.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libRS.so:system/lib/arm/libRS.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libselinux.so:system/lib/arm/libselinux.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libserviceutility.so:system/lib/arm/libserviceutility.so \
@@ -171,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/arm/libwilhelm.so:system/lib/arm/libwilhelm.so \
     vendor/asus/mofd-common/proprietary/lib/arm/libz.so:system/lib/arm/libz.so \
     vendor/asus/mofd-common/proprietary/lib/arm/linker:system/lib/arm/linker \
+    vendor/asus/mofd-common/proprietary/lib/arm/xstdata:system/lib/arm/xstdata \
     vendor/asus/mofd-common/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/asus/mofd-common/proprietary/bin/fg_conf:system/bin/fg_conf \
     vendor/asus/mofd-common/proprietary/bin/logcontrol:system/bin/logcontrol \
