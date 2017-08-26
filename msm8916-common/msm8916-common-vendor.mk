@@ -351,7 +351,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/msm8916-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib/sensors.asus.so:system/lib/sensors.asus.so \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
@@ -382,7 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/asus/msm8916-common/proprietary/lib/libxditk_SR.so:system/lib/libxditk_SR.so \
     vendor/asus/msm8916-common/proprietary/lib/style.cng:system/lib/style.cng \
-    vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib64/sensors.asus.so:system/lib64/sensors.asus.so \
     vendor/asus/msm8916-common/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
     vendor/asus/msm8916-common/proprietary/lib64/libmllite.so:system/lib64/libmllite.so \
     vendor/asus/msm8916-common/proprietary/lib64/libmplmpu.so:system/lib64/libmplmpu.so \
