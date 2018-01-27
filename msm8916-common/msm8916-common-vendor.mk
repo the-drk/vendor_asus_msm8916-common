@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/asus/msm8916-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/asus/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/asus/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/asus/msm8916-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
