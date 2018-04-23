@@ -350,6 +350,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/msm8916-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/hw/lights.msm8916.so:system/vendor/lib/hw/lights.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib/sensors.asus.so:system/lib/sensors.asus.so \
     vendor/asus/msm8916-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/asus/msm8916-common/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
@@ -575,6 +576,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/hw/lights.msm8916.so:system/vendor/lib64/hw/lights.msm8916.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
