@@ -358,10 +358,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a420_pm4.fw \
     vendor/asus/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/asus/msm8916-common/proprietary/etc/gallery_arcsoft_config.cng:$(TARGET_COPY_OUT_SYSTEM)/etc/gallery_arcsoft_config.cng \
-    vendor/asus/msm8916-common/proprietary/etc/permissions/imscm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/imscm.xml \
-    vendor/asus/msm8916-common/proprietary/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcnvitems.xml \
-    vendor/asus/msm8916-common/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
-    vendor/asus/msm8916-common/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
+    vendor/asus/msm8916-common/proprietary/vendor/etc/permissions/imscm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/imscm.xml \
+    vendor/asus/msm8916-common/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
+    vendor/asus/msm8916-common/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/asus/msm8916-common/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/asus/msm8916-common/proprietary/vendor/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/asus/msm8916-common/proprietary/vendor/framework/QPerformance.jar:$(TARGET_COPY_OUT_VENDOR)/framework/QPerformance.jar \
     vendor/asus/msm8916-common/proprietary/lib/DITConfig.cfg:$(TARGET_COPY_OUT_SYSTEM)/lib/DITConfig.cfg \
